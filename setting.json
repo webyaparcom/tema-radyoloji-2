@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kesit Radyoloji: Bursa Nilüfer’de MR, tomografi, röntgen, ultrason, mamografi ve kemik yoğunluğu ölçümü için randevulu görüntüleme; tetkik öncesi hazırlık rehberi. Demo site; içerik kurgusaldır.",
+    "en": "Kesit Radiology: appointment-based MRI, CT, X-ray, ultrasound, mammography and bone density imaging in Nilufer, Bursa, with a preparation guide before each scan. Demo site; content is fictional.",
+    "ar": "كسيت للأشعة: تصوير بالموعد للرنين المغناطيسي والأشعة المقطعية والسينية والموجات فوق الصوتية والماموغرام وكثافة العظام في نيلوفر، بورصة، مع دليل تحضير قبل كل فحص. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "radyoloji, MR, tomografi, röntgen, ultrason, mamografi, tetkik hazırlığı, Bursa",
+    "en": "radiology, MRI, CT, X-ray, ultrasound, mammography, scan preparation, Bursa",
+    "ar": "أشعة، رنين مغناطيسي، أشعة مقطعية، أشعة سينية، موجات فوق صوتية، ماموغرام، التحضير للفحص، بورصة"
+  },
+  "category": "Kurumsal",
+  "name": "Kesit Radyoloji",
+  "domain": "radyoloji-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "noto-sans",
+    "heading": "montserrat",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#4462C6",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "7px",
+    "--mx-radius-md": "12px",
+    "--mx-radius-lg": "17px",
+    "--mx-radius-xl": "23px"
+  },
+  "icon": "icon.png"
+}

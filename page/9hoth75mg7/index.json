@@ -1,0 +1,40 @@
+{
+  "id": "9hoth75mg7",
+  "name": {
+    "tr": "Uzmanlar",
+    "en": "Specialists",
+    "ar": "الأخصائيون"
+  },
+  "description": {
+    "tr": "Aranabilir kurgusal uzman ve teknik kadro.",
+    "en": "Searchable fictional specialists and technical staff.",
+    "ar": "أخصائيون وفريق فني افتراضيون قابلون للبحث."
+  },
+  "keyword": {
+    "tr": "ekip, kadro",
+    "en": "team, staff",
+    "ar": "فريق، طاقم"
+  },
+  "path": "ekip",
+  "icon": "groups",
+  "category": "hakkimizda",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "sywz9c",
+      "4sexpk"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Uzmanlar",
+    "en": "Specialists",
+    "ar": "الأخصائيون"
+  },
+  "date": "2026-11-16T18:05:38.118Z",
+  "update": "2026-11-16T18:09:16.097Z"
+}
