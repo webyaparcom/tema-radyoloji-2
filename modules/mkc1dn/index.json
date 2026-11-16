@@ -1,0 +1,63 @@
+{
+  "name": "Radyoloji Tetkik Rehberi — tetkik karşılaştırma satırları, açılır hazırlık talimatı",
+  "description": "Üstte sütun başlıkları (süre · açlık · kontrast · ışın) olan karşılaştırma tablosu; her tetkik bir satır (ikon, ad, süre, açlık, kontrast, 3 çubuklu ışın göstergesi). Satır tıklanınca altında hazırlık talimatı ve uyarı kutusu açılır; aynı anda tek satır açık (`<details name>`, JS gerektirmez). Kayıt alanları: `sure` · `aclik` · `kontrast` · `isin` (0–3) · `uyari`. Dar ekranda satırlar etiketli kartlara dönüşür. tanitim-akordeon'un görsel yanındaki serbest metin maddelerinden farkı: her akordeon başlığı bir karşılaştırma tablosu satırıdır (ortak sütun başlıkları, ışın çubuk göstergesi, mobilde etiketli hücreler) ve gövde hazırlık talimatı + uyarı kutusudur; ders-programi-tablo/kargo-desi-hesap'ın `<table>` ızgaralarından farklı olarak satırlar açılır. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık ve metin yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "radiology",
+  "category": "module",
+  "subCategory": "exam-compare-accordion",
+  "tags": [
+    "module",
+    "medical",
+    "compare",
+    "accordion",
+    "preparation",
+    "native-details",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1160px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "img": "",
+    "img2": "",
+    "cta_ad": "",
+    "cta_url": "",
+    "cta2_ad": "",
+    "cta2_url": "",
+    "bg": "var(--mx-site-bg, #ffffff)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+    "kartBg": "var(--mx-site-surface, #f6f7f9)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "tetkikAd": "",
+    "sureAd": "",
+    "aclikAd": "",
+    "kontrastAd": "",
+    "isinAd": "",
+    "hazirlikAd": "",
+    "yokAd": "",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing/data",
+    "alanlar": {
+      "ikon": "madde ikonu (Material Symbols)",
+      "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+      "metin": "madde metni (dil sözlüğü)",
+      "url": "madde bağlantısı"
+    }
+  }
+}

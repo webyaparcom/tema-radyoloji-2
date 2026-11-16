@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "id": "lylwje63cj",
+      "name": {
+        "tr": "Tetkikler",
+        "en": "Scans",
+        "ar": "الفحوص"
+      },
+      "description": {
+        "tr": "Tetkik karşılaştırması ve hazırlık talimatları.",
+        "en": "Scan comparison and preparation instructions.",
+        "ar": "مقارنة الفحوص وتعليمات التحضير."
+      },
+      "path": "hizmetler",
+      "icon": "work",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "mkc1dn",
+          "g89pgm",
+          "4sexpk"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "g89pgm",
+          "4sexpk"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Yaklaşımımız ve sıra düzeni (kurgusal).",
+        "en": "Our approach and queue system (fictional).",
+        "ar": "نهجنا ونظام الدور (افتراضي)."
+      }
+    },
+    {
+      "id": "9hoth75mg7",
+      "name": {
+        "tr": "Uzmanlar",
+        "en": "Specialists",
+        "ar": "الأخصائيون"
+      },
+      "description": {
+        "tr": "Aranabilir kurgusal uzman ve teknik kadro.",
+        "en": "Searchable fictional specialists and technical staff.",
+        "ar": "أخصائيون وفريق فني افتراضيون قابلون للبحث."
+      },
+      "path": "ekip",
+      "icon": "groups",
+      "category": "hakkimizda",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "sywz9c",
+          "4sexpk"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "6lyj97au23",
+      "name": {
+        "tr": "Sorular",
+        "en": "Questions",
+        "ar": "الأسئلة"
+      },
+      "description": {
+        "tr": "Merak edilenler ve kısa yanıtlar.",
+        "en": "Common questions and short answers.",
+        "ar": "أسئلة متكررة وإجابات موجزة."
+      },
+      "path": "sorular",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "487qsg",
+          "4sexpk"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "n6l6715jae",
+      "name": {
+        "tr": "Randevu",
+        "en": "Booking",
+        "ar": "الحجز"
+      },
+      "description": {
+        "tr": "Tetkik seçimi, hazırlık kontrol listesi ve randevu talebi (demo).",
+        "en": "Scan choice, preparation checklist and booking request (demo).",
+        "ar": "اختيار الفحص وقائمة التحضير وطلب الحجز (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "event",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "rum4qo"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "Birimler",
+        "en": "Units",
+        "ar": "الوحدات"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "vf54am",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Birim ve dahili telefon rehberi, adres ve saatler.",
+        "en": "Unit and extension directory, address and hours.",
+        "ar": "دليل الوحدات والتحويلات والعنوان والساعات."
+      }
+    }
+  ],
+  "desc": []
+}

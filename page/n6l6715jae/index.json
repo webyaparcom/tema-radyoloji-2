@@ -1,0 +1,39 @@
+{
+  "id": "n6l6715jae",
+  "name": {
+    "tr": "Randevu",
+    "en": "Booking",
+    "ar": "الحجز"
+  },
+  "description": {
+    "tr": "Tetkik seçimi, hazırlık kontrol listesi ve randevu talebi (demo).",
+    "en": "Scan choice, preparation checklist and booking request (demo).",
+    "ar": "اختيار الفحص وقائمة التحضير وطلب الحجز (تجريبي)."
+  },
+  "keyword": {
+    "tr": "randevu",
+    "en": "appointment",
+    "ar": "موعد"
+  },
+  "path": "teklif-al",
+  "icon": "event",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "rum4qo"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Randevu",
+    "en": "Booking",
+    "ar": "الحجز"
+  },
+  "date": "2026-11-16T18:05:38.133Z",
+  "update": "2026-11-16T18:09:16.110Z"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "İletişim Birim Rehberi — harf dizinli birim / dahili telefon rehberi, harf süzgeci",
+  "description": "Kurum rehberi: kanallar ve data satırları (baslik = birim adı, deger = telefon / dahili / e-posta) ad baş harfine göre gruplanır ve sayfa diliyle sıralanır. Üstte yapışkan harf çubuğu: JS yoksa harfe tıklamak gruba atlar, JS ile süzgeç olur («@all@» hepsini açar). Her grupta solda iri harf karosu (kaydırırken yapışık), satırda ikon · birim adı · noktalı çizgi · numara ve kopyala düğmesi. Ailede DİZİN / REHBER kalıbı olan tek modül: kanallar baş harfe göre gruplanır (toLocaleUpperCase + localeCompare, sayfa dili), harf çubuğu çıpa bağlantısından JS süzgecine (birimSuz, aria-pressed) yükselir, grup harfi position: sticky, satırda radial-gradient noktalı öncü çizgi — iletisim-tanim-listesi'nin düz dl'sinden farklı olarak yüzlerce dahiliye ölçeklenir. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "contact_phone",
+  "category": "contact",
+  "subCategory": "department-directory",
+  "tags": [
+    "contact",
+    "directory",
+    "index",
+    "filter",
+    "institution",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "adres": "",
+    "telefon": "",
+    "eposta": "",
+    "whatsapp": "",
+    "saat": "",
+    "haritaUrl": "",
+    "haritaGomme": "",
+    "waMesaj": "",
+    "bg": "var(--mx-site-bg, #ffffff)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+    "kartBg": "var(--mx-site-surface, #f6f7f9)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing",
+    "alanlar": {
+      "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+      "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+      "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+      "baslik": "dil sözlüğü (kanal etiketi)"
+    }
+  }
+}

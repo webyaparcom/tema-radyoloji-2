@@ -1,0 +1,53 @@
+{
+  "name": "Randevu Tetkik + Hazırlık — seçilen tetkikin hazırlık notu ve kontrol listesi",
+  "description": "Solda kalın üst çizgili tetkik listesi (ikon dairesi, ad, süre · fiyat, seçim noktası); seçilen tetkikin altında hazırlık notu (data[].metin) yumuşakça açılır. Sağda gri panelde «hazırlık kontrol listesi» kartı: desing.hazirlik maddeleri işaretlendikçe dolan ilerleme halkası ve «n/N» sayacı; tüm maddeler işaretlenmeden form gönderilmez. Altında uzman, tarih, saat, ad, telefon, e-posta, not, KVKK ve gönder. JS yokken halka gizli, maddeler zorunlu onay kutusu. randevu-akordeon bölümleri ziyaretçi açar, randevu-numarali-dikey adımları çizgiyle bağlar; bu modülde açılan içerik seçilen tetkike bağlı hazırlık talimatıdır ve gönderim, ziyaretçinin hazırlık maddelerini tek tek onaylamasına bağlanır (hazirlik parçası, conic ilerleme halkası) — tıbbi/teknik ön koşullu randevu iskeleti. Sunucusuz gönderim (formAction JSON POST › WhatsApp › .ics › mailto), kapalı gün denetimi, KVKK onayı. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Gönderim yolu yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "radiology",
+  "category": "randevu",
+  "subCategory": "prep-checklist",
+  "tags": [
+    "randevu",
+    "checklist",
+    "preparation",
+    "medical",
+    "exam",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-bg, #ffffff)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+    "kartBg": "var(--mx-site-surface, #f6f7f9)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "hazirlik": [],
+    "hazirlikAd": "",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing",
+    "alanlar": {
+      "ad": "hizmet adı (dil sözlüğü, zorunlu) — eski `services[].name`",
+      "sure": "dakika — eski `duration`",
+      "fiyat": "sayı (sayfa diliyle biçimlenir) — eski `price`",
+      "ikon": "Material Symbols adı",
+      "metin": "kısa açıklama (dil sözlüğü)",
+      "img": "görsel (destekleyen yerleşimde)"
+    }
+  }
+}

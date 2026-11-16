@@ -1,0 +1,56 @@
+{
+  "name": "Ekip Arama — canlı aramalı personel tablosu",
+  "description": "Büyük arama kutusu + «eşleşen / toplam» sayacı ve altında tablo düzeninde personel satırları (portre, ad-unvan, bölüm rozeti + uzman olduğu konular, iletişim simgeleri). Yazdıkça satırlar süzülür, eşleşen harfler vurgulanır (büyük/küçük harf ve aksan duyarsız); sonuç yoksa boş durum yazısı, Escape/çarpı temizler. JS yoksa arama gizli, tablo tam. Veri ek alanı: `anahtar` (konular/reyonlar, dil sözlüğü dizisi). Serbest metin araması iskeleti: ekip-uzmanlik-filtre hazır etiket çipleriyle, ekip-bolum-sekme bölüm sekmesiyle süzerken burada ziyaretçi ad/konu yazar, satırlar gizlenir ve eşleşme <mark> ile metnin içinde gösterilir; düzen kart değil zebra çizgili tablo satırı (sütun hizası). Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "person_search",
+  "category": "team",
+  "subCategory": "live-search",
+  "tags": [
+    "team",
+    "search",
+    "filter",
+    "directory",
+    "highlight",
+    "interactive",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-bg, #ffffff)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+    "kartBg": "var(--mx-site-surface, #f6f7f9)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "aramaEtiket": "",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "ad": "ad soyad (zorunlu; düz metin ya da dil sözlüğü)",
+      "unvan": "görev / unvan (dil sözlüğü)",
+      "metin": "kısa tanıtım (dil sözlüğü)",
+      "img": "portre görseli (yoksa baş harfler)",
+      "bolum": "bölüm (dil sözlüğü ya da desing.departments id'si)",
+      "eposta": "e-posta (mailto)",
+      "telefon": "telefon (tel:)",
+      "url": "profil sayfası bağlantısı",
+      "social": "[{ ad, url (http(s)/mailto/tel), ikon (Material Symbols) }]"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Değer Işık Tarama — imleci izleyen mercek + tarama çizgisi",
+  "description": "Koyu bir görüntüleme ekranında değer kartları: görününce ekranın üstünden altına bir tarama ışığı geçer; imleç ekranda gezdikçe ışık merceği tüm kartlarda imleci izler ve merceğin altında kartın gizli «röntgen» katmanı (dev ikon + milimetrik ızgara) belirir. Dokunmatikte / klavyede odaklanan kartta mercek ortalanır. deger-gradyan-sinir dönen ışıklı kenarlı karttır (kendi kendine döner), deger-cam renk lekeli buzlu camdır; bu modülde ışık imlecin konumunu izler (pointer → --x/--y) ve maskeyle gizli bir katmanı açığa çıkarır, ekranın tamamında bir kez tarama çizgisi akar. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "radiology",
+  "category": "values",
+  "subCategory": "spotlight-scan",
+  "tags": [
+    "values",
+    "spotlight",
+    "pointer",
+    "mask",
+    "scan",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-text, #111318)",
+    "text": "var(--mx-site-bg, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 78%, var(--mx-site-text, #111318))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 7%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 18%, transparent)",
+    "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
+    "accentText": "var(--mx-site-text, #111318)",
+    "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "vurguText": "var(--mx-site-text, #111318)",
+    "bgcolor": "var(--mx-site-text, #111318)",
+    "color": "var(--mx-site-bg, #ffffff)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "ikon": "Material Symbols adı",
+      "baslik": "dil sözlüğü (zorunlu)",
+      "metin": "dil sözlüğü",
+      "etiket": "dil sözlüğü (küçük üst etiket)",
+      "img": "görsel yolu (destekleyen yerleşimde)",
+      "url": "iç/dış bağlantı (kartın tamamı tıklanır)"
+    }
+  }
+}

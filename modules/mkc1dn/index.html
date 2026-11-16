@@ -1,0 +1,93 @@
+<section class="modulex-radyoloji-tetkik-rehberi{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-radyoloji-tetkik-rehberi-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* radyoloji-tetkik-rehberi — tanitim-akordeon'un görsel yanındaki serbest metin maddelerinden farkı: her akordeon başlığı bir karşılaştırma tablosu satırıdır (ortak sütun başlıkları, ışın çubuk göstergesi, mobilde etiketli hücreler) ve gövde hazırlık talimatı + uyarı kutusudur; ders-programi-tablo/kargo-desi-hesap'ın `<table>` ızgaralarından farklı olarak satırlar açılır. */
+  .modulex-radyoloji-tetkik-rehberi { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-radyoloji-tetkik-rehberi *, .modulex-radyoloji-tetkik-rehberi *::before, .modulex-radyoloji-tetkik-rehberi *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-radyoloji-tetkik-rehberi :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-radyoloji-tetkik-rehberi :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-radyoloji-tetkik-rehberi :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-radyoloji-tetkik-rehberi :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-radyoloji-tetkik-rehberi img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-radyoloji-tetkik-rehberi) img { height: auto; }
+  .modulex-radyoloji-tetkik-rehberi [hidden] { display: none !important; }
+  .modulex-radyoloji-tetkik-rehberi :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-radyoloji-tetkik-rehberi :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-radyoloji-tetkik-rehberi-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-radyoloji-tetkik-rehberi-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-radyoloji-tetkik-rehberi--bassiz .modulex-radyoloji-tetkik-rehberi-bas { display: none; }
+  .modulex-radyoloji-tetkik-rehberi-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-radyoloji-tetkik-rehberi-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-radyoloji-tetkik-rehberi-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-radyoloji-tetkik-rehberi-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-radyoloji-tetkik-rehberi-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-radyoloji-tetkik-rehberi-dugme:hover { transform: translateY(-2px); }
+  .modulex-radyoloji-tetkik-rehberi-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-radyoloji-tetkik-rehberi-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-radyoloji-tetkik-rehberi-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-radyoloji-tetkik-rehberi-giris { display: grid; gap: 14px; max-width: 720px; margin-block-end: clamp(26px, 4vw, 42px); }
+  .modulex-radyoloji-tetkik-rehberi-rehber { --fb-kol: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr)) minmax(0, 0.8fr) 40px; display: grid; border: 1px solid --cizgi--; border-radius: --yuvarlak--; overflow: hidden; background: --bg--; }
+  .modulex-radyoloji-tetkik-rehberi-rehber--3 { --fb-kol: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr)) 40px; }
+  .modulex-radyoloji-tetkik-rehberi-thead, .modulex-radyoloji-tetkik-rehberi-satir { display: grid; grid-template-columns: var(--fb-kol); align-items: center; gap: 14px; padding: 14px 20px; }
+  .modulex-radyoloji-tetkik-rehberi-thead { background: --kartBg--; color: --muted--; font-size: 0.74rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+  .modulex-radyoloji-tetkik-rehberi-tetkik { border-block-start: 1px solid --cizgi--; transition: background-color 0.3s ease; }
+  .modulex-radyoloji-tetkik-rehberi-tetkik[open] { background-color: color-mix(in srgb, --accent-- 6%, --bg--); }
+  .modulex-radyoloji-tetkik-rehberi-satir { list-style: none; cursor: pointer; transition: background-color 0.2s ease; }
+  .modulex-radyoloji-tetkik-rehberi-satir::-webkit-details-marker { display: none; }
+  .modulex-radyoloji-tetkik-rehberi-satir:hover { background-color: color-mix(in srgb, --accent-- 8%, transparent); }
+  .modulex-radyoloji-tetkik-rehberi-tetkik[data-bos] .modulex-radyoloji-tetkik-rehberi-satir { cursor: default; }
+  .modulex-radyoloji-tetkik-rehberi-tetkik[data-bos] .modulex-radyoloji-tetkik-rehberi-ok { visibility: hidden; }
+  .modulex-radyoloji-tetkik-rehberi-tad { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .modulex-radyoloji-tetkik-rehberi-tikon { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border-radius: 12px; background: color-mix(in srgb, --accent-- 12%, transparent); color: --accentInk--; font-size: 24px; }
+  .modulex-radyoloji-tetkik-rehberi-tisim { font-size: 1.02rem; font-weight: 750; }
+  .modulex-radyoloji-tetkik-rehberi-hc { font-size: 0.92rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .modulex-radyoloji-tetkik-rehberi-hc--bos { color: --muted--; font-weight: 500; }
+  .modulex-radyoloji-tetkik-rehberi-isin { display: inline-flex; align-items: end; gap: 3px; height: 20px; }
+  .modulex-radyoloji-tetkik-rehberi-ibar { width: 8px; border-radius: 2px; background: color-mix(in srgb, --text-- 14%, transparent); }
+  .modulex-radyoloji-tetkik-rehberi-ibar:nth-child(1) { height: 8px; }
+  .modulex-radyoloji-tetkik-rehberi-ibar:nth-child(2) { height: 14px; }
+  .modulex-radyoloji-tetkik-rehberi-ibar:nth-child(3) { height: 20px; }
+  .modulex-radyoloji-tetkik-rehberi-ibar--dolu { background: --accentInk--; }
+  .modulex-radyoloji-tetkik-rehberi-ok { justify-self: end; color: --accentInk--; transition: transform 0.3s ease; }
+  .modulex-radyoloji-tetkik-rehberi-tetkik[open] .modulex-radyoloji-tetkik-rehberi-ok { transform: rotate(180deg); }
+  .modulex-radyoloji-tetkik-rehberi-hazirlik { display: grid; gap: 10px; margin-inline: 20px; margin-block-end: 18px; padding: 18px 20px; border-inline-start: 4px solid --accent--; border-start-end-radius: 12px; border-end-end-radius: 12px; background: --bg--; animation: modulex-radyoloji-tetkik-rehberi-acil 0.4s ease both; }
+  .modulex-radyoloji-tetkik-rehberi-hbas { display: flex; align-items: center; gap: 8px; color: --accentInk--; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+  .modulex-radyoloji-tetkik-rehberi-hik { font-size: 18px; }
+  .modulex-radyoloji-tetkik-rehberi-hmetin { max-width: 70ch; }
+  .modulex-radyoloji-tetkik-rehberi-uyari { display: flex; align-items: flex-start; gap: 10px; padding: 12px 14px; border: 1.5px dashed --accentInk--; border-radius: 10px; font-size: 0.9rem; }
+  .modulex-radyoloji-tetkik-rehberi-uik { flex: none; color: --accentInk--; font-size: 20px; }
+  .modulex-radyoloji-tetkik-rehberi-hbag { display: inline-flex; align-items: center; gap: 6px; color: --accentInk--; font-weight: 700; text-decoration: none; }
+  .modulex-radyoloji-tetkik-rehberi-rehber + .modulex-radyoloji-tetkik-rehberi-cta { margin-block-start: 28px; }
+  @keyframes modulex-radyoloji-tetkik-rehberi-acil { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+  @media (max-width: 768px) {
+    .modulex-radyoloji-tetkik-rehberi-thead { display: none; }
+    .modulex-radyoloji-tetkik-rehberi-satir { position: relative; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 12px; padding: 16px; padding-inline-end: 52px; }
+    .modulex-radyoloji-tetkik-rehberi-tad { grid-column: 1 / -1; }
+    .modulex-radyoloji-tetkik-rehberi-ok { position: absolute; inset-block-start: 26px; inset-inline-end: 16px; }
+    .modulex-radyoloji-tetkik-rehberi-hc { display: grid; gap: 2px; }
+    .modulex-radyoloji-tetkik-rehberi-hc[data-et]::before { content: attr(data-et); color: --muted--; font-size: 0.68rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+    .modulex-radyoloji-tetkik-rehberi-hazirlik { margin-inline: 12px; }
+  }
+  .modulex-radyoloji-tetkik-rehberi-bag { color: inherit; text-decoration: none; }
+  .modulex-radyoloji-tetkik-rehberi-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-radyoloji-tetkik-rehberi-mbaslik { font-size: 1.05rem; font-weight: 700; }
+  .modulex-radyoloji-tetkik-rehberi-mmetin { color: --muted--; font-size: 0.95rem; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-radyoloji-tetkik-rehberi :is(.modulex-radyoloji-tetkik-rehberi-baslik, .modulex-radyoloji-tetkik-rehberi-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-radyoloji-tetkik-rehberi-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-radyoloji-tetkik-rehberi { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-radyoloji-tetkik-rehberi *, .modulex-radyoloji-tetkik-rehberi *::before, .modulex-radyoloji-tetkik-rehberi *::after { animation: none !important; transition: none !important; }
+  }
+</style>

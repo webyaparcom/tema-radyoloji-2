@@ -1,0 +1,41 @@
+{
+  "id": "lylwje63cj",
+  "name": {
+    "tr": "Tetkikler",
+    "en": "Scans",
+    "ar": "الفحوص"
+  },
+  "description": {
+    "tr": "Tetkik karşılaştırması ve hazırlık talimatları.",
+    "en": "Scan comparison and preparation instructions.",
+    "ar": "مقارنة الفحوص وتعليمات التحضير."
+  },
+  "keyword": {
+    "tr": "Tetkikler",
+    "en": "Scans",
+    "ar": "الفحوص"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "mkc1dn",
+      "g89pgm",
+      "4sexpk"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Tetkikler",
+    "en": "Scans",
+    "ar": "الفحوص"
+  },
+  "date": "2026-11-16T18:05:38.106Z",
+  "update": "2026-11-16T18:09:16.086Z"
+}

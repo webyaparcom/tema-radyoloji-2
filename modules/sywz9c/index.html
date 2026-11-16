@@ -1,0 +1,170 @@
+<section class="modulex-ekip-arama{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-ekip-arama-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* ekip-arama — Serbest metin araması iskeleti: ekip-uzmanlik-filtre hazır etiket çipleriyle, ekip-bolum-sekme bölüm sekmesiyle süzerken burada ziyaretçi ad/konu yazar, satırlar gizlenir ve eşleşme <mark> ile metnin içinde gösterilir; düzen kart değil zebra çizgili tablo satırı (sütun hizası). */
+  .modulex-ekip-arama { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-ekip-arama *, .modulex-ekip-arama *::before, .modulex-ekip-arama *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-ekip-arama :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-ekip-arama :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-ekip-arama :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-ekip-arama :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-ekip-arama img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-ekip-arama) img { height: auto; }
+  .modulex-ekip-arama [hidden] { display: none !important; }
+  .modulex-ekip-arama :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-ekip-arama :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-ekip-arama-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-ekip-arama-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-ekip-arama--bassiz .modulex-ekip-arama-bas { display: none; }
+  .modulex-ekip-arama-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ekip-arama-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-ekip-arama-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-ekip-arama-bas { max-width: 760px; }
+  .modulex-ekip-arama-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-ekip-arama-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-ekip-arama-dugme:hover { transform: translateY(-2px); }
+  .modulex-ekip-arama-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-ekip-arama-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-ekip-arama-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-ekip-arama-arac { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin-block-end: 20px; }
+  .modulex-ekip-arama:not(.modulex-ekip-arama--js) .modulex-ekip-arama-arac { display: none; }
+  .modulex-ekip-arama-kutu { position: relative; display: flex; align-items: center; flex: 1 1 320px; max-inline-size: 560px; }
+  .modulex-ekip-arama-buyutec { position: absolute; inset-inline-start: 16px; color: --muted--; font-size: 22px; pointer-events: none; }
+  .modulex-ekip-arama-giris { inline-size: 100%; min-block-size: 56px; padding-block: 12px; padding-inline: 50px 54px; border: 2px solid --cizgi--; border-radius: 14px; background-color: --bg--; color: --text--; font: inherit; font-size: 1.02rem; transition: border-color 0.25s ease, box-shadow 0.25s ease; }
+  .modulex-ekip-arama-giris:focus { outline: none; border-color: --accent--; box-shadow: 0 0 0 4px color-mix(in srgb, --accent-- 22%, transparent); }
+  .modulex-ekip-arama-giris::placeholder { color: --muted--; }
+  .modulex-ekip-arama-giris::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+  .modulex-ekip-arama-temiz { position: absolute; inset-inline-end: 8px; display: grid; place-items: center; inline-size: 40px; block-size: 40px; border: 0; border-radius: 10px; background-color: --kartBg--; color: --text--; transition: background-color 0.2s ease; }
+  .modulex-ekip-arama-temiz:hover { background-color: --cizgi--; }
+  .modulex-ekip-arama-sonuc { display: inline-flex; align-items: center; gap: 6px; color: --muted--; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .modulex-ekip-arama-tablo { display: grid; grid-template-columns: auto minmax(0, 1.3fr) minmax(0, 1fr) auto; border-block-start: 2px solid --text--; }
+  .modulex-ekip-arama-kayit { grid-column: 1 / -1; display: grid; grid-template-columns: subgrid; align-items: center; gap: 18px; padding: 12px 10px; border-block-end: 1px solid --cizgi--; transition: background-color 0.2s ease; }
+  .modulex-ekip-arama-kayit:nth-child(even) { background-color: color-mix(in srgb, --kartBg-- 75%, transparent); }
+  .modulex-ekip-arama-kayit:hover { background-color: --kartBg--; }
+  .modulex-ekip-arama-foto { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; font-size: 1rem; }
+  .modulex-ekip-arama-kim { display: grid; min-width: 0; }
+  .modulex-ekip-arama-kim .modulex-ekip-arama-ad { font-size: 1.02rem; }
+  .modulex-ekip-arama-kim .modulex-ekip-arama-unvan { font-size: 0.86rem; }
+  .modulex-ekip-arama-ayrinti { display: grid; justify-items: start; gap: 4px; min-width: 0; }
+  .modulex-ekip-arama-rozet { padding: 2px 10px; border-radius: 6px; background-color: color-mix(in srgb, --accent-- 12%, --bg--); color: --accentInk--; font-size: 0.78rem; font-weight: 700; }
+  .modulex-ekip-arama-konu { display: inline-flex; align-items: center; gap: 6px; color: --muted--; font-size: 0.85rem; }
+  .modulex-ekip-arama-konu .material-symbols-outlined { font-size: 16px; }
+  .modulex-ekip-arama-isaret { padding-inline: 1px; border-radius: 4px; background-color: color-mix(in srgb, --accent-- 26%, --bg--); color: inherit; }
+  .modulex-ekip-arama-kayit .modulex-ekip-arama-sosyal { justify-content: flex-end; gap: 6px; }
+  .modulex-ekip-arama-slink { min-width: 38px; min-height: 38px; padding: 0 8px; }
+  .modulex-ekip-arama-bos { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 40px 16px; color: --muted--; font-weight: 650; }
+  .modulex-ekip-arama-bos .material-symbols-outlined { font-size: 28px; }
+  @media (max-width: 768px) {
+    .modulex-ekip-arama-tablo { grid-template-columns: minmax(0, 1fr); }
+    .modulex-ekip-arama-kayit { grid-template-columns: auto minmax(0, 1fr); gap: 6px 14px; padding: 12px 6px; }
+    .modulex-ekip-arama-ayrinti, .modulex-ekip-arama-kayit .modulex-ekip-arama-sosyal { grid-column: 2; }
+    .modulex-ekip-arama-kayit .modulex-ekip-arama-sosyal { justify-content: flex-start; }
+    .modulex-ekip-arama-foto { width: 44px; height: 44px; }
+    .modulex-ekip-arama-giris { min-block-size: 50px; }
+  }
+  /* img width/height öznitelikleri CSS yüksekliği olur — aspect-ratio'nun çalışması için yükseklik auto (modül kuralı ezebilir) */
+  :where(.modulex-ekip-arama) img { height: auto; }
+  .modulex-ekip-arama-foto { min-width: 0; }
+  .modulex-ekip-arama-bag { color: inherit; text-decoration: none; }
+  .modulex-ekip-arama-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-ekip-arama-harf { display: grid; place-items: center; background-color: --vurguBg--; color: --vurguText--; font-weight: 800; letter-spacing: 0.02em; }
+  .modulex-ekip-arama-sosyal { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-ekip-arama-slink { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-width: 40px; min-height: 40px; padding: 0 10px; border: 1px solid --cizgi--; border-radius: 999px; color: inherit; font-size: 0.88rem; text-decoration: none; transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease; }
+  .modulex-ekip-arama-slink:hover { background-color: --accent--; border-color: --accent--; color: --accentText--; }
+  .modulex-ekip-arama-slink .material-symbols-outlined { font-size: 19px; }
+  .modulex-ekip-arama-syazi { overflow-wrap: anywhere; }
+  .modulex-ekip-arama-ad { font-size: 1.12rem; font-weight: 750; line-height: 1.3; }
+  .modulex-ekip-arama-unvan { color: --accentInk--; font-size: 0.92rem; font-weight: 650; }
+  .modulex-ekip-arama-bio { color: --muted--; font-size: 0.95rem; line-height: 1.65; }
+  .modulex-ekip-arama-bolum { color: --muted--; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ekip-arama :is(.modulex-ekip-arama-baslik, .modulex-ekip-arama-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ekip-arama-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-ekip-arama { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ekip-arama *, .modulex-ekip-arama *::before, .modulex-ekip-arama *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-ekip-arama";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const arama = (s, P) => {
+        const g = s.querySelector("[data-ar-giris]");
+        const K = [...s.querySelectorAll("[data-ar-kayit]")];
+        if (!g || !K.length) return;
+        s.classList.add(P + "--js");
+        const dl = document.documentElement.lang || undefined;
+        const tek = (c) => {
+          let x = c;
+          try { x = c.toLocaleLowerCase(dl); } catch (e) { x = c.toLowerCase(); }
+          return x.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ı/g, "i");
+        };
+        const hazirla = (t) => {
+          const C = [...t];
+          let n = "";
+          const ix = [];
+          C.forEach((c, i) => { const y = tek(c); for (let u = 0; u < y.length; u++) ix.push(i); n += y; });
+          return { C, n, ix };
+        };
+        const M = [...s.querySelectorAll("[data-ar-metin]")].map((e) => ({ e, h: hazirla(e.textContent) }));
+        const H = new Map(K.map((k) => [k, hazirla(`${k.textContent} ${k.dataset.arEk || ""}`).n]));
+        const isle = (m, q) => {
+          const { C, n, ix } = m.h;
+          while (m.e.firstChild) m.e.removeChild(m.e.firstChild);
+          if (!q) { m.e.textContent = C.join(""); return; }
+          let son = 0;
+          let p = n.indexOf(q);
+          while (p > -1) {
+            const a = ix[p];
+            const b = ix[p + q.length - 1] + 1;
+            if (a >= son) {
+              if (a > son) m.e.appendChild(document.createTextNode(C.slice(son, a).join("")));
+              const mk = document.createElement("mark");
+              mk.className = P + "-isaret";
+              mk.textContent = C.slice(a, b).join("");
+              m.e.appendChild(mk);
+              son = b;
+            }
+            p = n.indexOf(q, p + q.length);
+          }
+          if (son < C.length) m.e.appendChild(document.createTextNode(C.slice(son).join("")));
+        };
+        const sayi = s.querySelector("[data-ar-sayi]");
+        const bos = s.querySelector("[data-ar-bos]");
+        const temiz = s.querySelector("[data-ar-temiz]");
+        let nf = null;
+        try { nf = new Intl.NumberFormat(dl); } catch (e) { nf = null; }
+        const f = (x) => (nf ? nf.format(x) : String(x));
+        const ara = () => {
+          const q = tek(g.value.trim().replace(/\s+/g, " "));
+          let n = 0;
+          K.forEach((k) => { const uy = !q || H.get(k).includes(q); k.hidden = !uy; if (uy) n++; });
+          M.forEach((m) => isle(m, q));
+          if (sayi) sayi.textContent = `${f(n)} / ${f(K.length)}`;
+          if (bos) bos.hidden = n > 0;
+          if (temiz) temiz.hidden = !g.value;
+        };
+        g.addEventListener("input", ara);
+        g.addEventListener("keydown", (e) => { if (e.key === "Escape" && g.value) { g.value = ""; ara(); } });
+        if (temiz) temiz.addEventListener("click", () => { g.value = ""; ara(); g.focus(); });
+        ara();
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      arama(s, P, az);
+    });
+  })();
+</script>

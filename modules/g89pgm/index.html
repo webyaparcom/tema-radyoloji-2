@@ -1,0 +1,110 @@
+<section class="modulex-deger-isik-tarama{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-deger-isik-tarama-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* deger-isik-tarama — deger-gradyan-sinir dönen ışıklı kenarlı karttır (kendi kendine döner), deger-cam renk lekeli buzlu camdır; bu modülde ışık imlecin konumunu izler (pointer → --x/--y) ve maskeyle gizli bir katmanı açığa çıkarır, ekranın tamamında bir kez tarama çizgisi akar. */
+  .modulex-deger-isik-tarama { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-deger-isik-tarama *, .modulex-deger-isik-tarama *::before, .modulex-deger-isik-tarama *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-deger-isik-tarama :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-deger-isik-tarama :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-deger-isik-tarama :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-deger-isik-tarama :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-deger-isik-tarama img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-deger-isik-tarama) img { height: auto; }
+  .modulex-deger-isik-tarama [hidden] { display: none !important; }
+  .modulex-deger-isik-tarama :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-deger-isik-tarama :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-deger-isik-tarama-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-deger-isik-tarama-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-deger-isik-tarama--bassiz .modulex-deger-isik-tarama-bas { display: none; }
+  .modulex-deger-isik-tarama-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-deger-isik-tarama-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-deger-isik-tarama-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-deger-isik-tarama-bas { max-width: 760px; }
+  .modulex-deger-isik-tarama-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-deger-isik-tarama-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-deger-isik-tarama-dugme:hover { transform: translateY(-2px); }
+  .modulex-deger-isik-tarama-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-deger-isik-tarama-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-deger-isik-tarama-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-deger-isik-tarama-ekran { position: relative; overflow: hidden; padding: clamp(12px, 2vw, 20px); border: 1px solid --cizgi--; border-radius: calc(--yuvarlak-- * 1.3); background-image: repeating-linear-gradient(0deg, color-mix(in srgb, --text-- 4%, transparent) 0 1px, transparent 1px 4px); }
+  .modulex-deger-isik-tarama-tarama { position: absolute; inset-inline: 0; inset-block-start: 0; z-index: 2; height: 28%; background: linear-gradient(180deg, transparent, color-mix(in srgb, --accent-- 18%, transparent) 86%, --accent-- 100%); pointer-events: none; transform: translateY(-110%); }
+  .modulex-deger-isik-tarama--gor .modulex-deger-isik-tarama-tarama { animation: modulex-deger-isik-tarama-tara 2.6s cubic-bezier(0.45, 0, 0.2, 1) 0.2s both; }
+  .modulex-deger-isik-tarama-liste { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 12px; }
+  .modulex-deger-isik-tarama-kart { --x: 50%; --y: 16%; position: relative; overflow: hidden; min-height: 260px; border: 1px solid --cizgi--; border-radius: --yuvarlak--; background: color-mix(in srgb, --text-- 4%, transparent); transition: border-color 0.3s ease; }
+  .modulex-deger-isik-tarama-kart::before { content: ""; position: absolute; inset: 0; background: radial-gradient(260px circle at var(--x) var(--y), color-mix(in srgb, --accent-- 24%, transparent), transparent 70%); pointer-events: none; transition: background 0.2s ease; }
+  .modulex-deger-isik-tarama-kart:hover, .modulex-deger-isik-tarama-kart:focus-within { border-color: color-mix(in srgb, --accent-- 70%, transparent); }
+  .modulex-deger-isik-tarama-iz { position: absolute; inset: 0; display: grid; place-items: end; background-image: linear-gradient(color-mix(in srgb, --accent-- 22%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, --accent-- 22%, transparent) 1px, transparent 1px); background-size: 18px 18px; -webkit-mask: radial-gradient(170px circle at var(--x) var(--y), black, transparent 72%); mask: radial-gradient(170px circle at var(--x) var(--y), black, transparent 72%); pointer-events: none; }
+  .modulex-deger-isik-tarama-dev { margin: -16%; color: color-mix(in srgb, --accent-- 38%, transparent); font-size: 170px; line-height: 1; }
+  .modulex-deger-isik-tarama-yazi { position: relative; z-index: 1; display: grid; align-content: start; gap: 10px; padding: clamp(22px, 2.6vw, 30px); }
+  .modulex-deger-isik-tarama-kno { color: --accentInk--; font-family: var(--mx-font-mono, ui-monospace, monospace); font-size: 0.8rem; letter-spacing: 0.2em; }
+  .modulex-deger-isik-tarama-ikon { justify-self: start; color: --accentInk--; font-size: 34px; }
+  .modulex-deger-isik-tarama-etiket { color: --accentInk--; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-deger-isik-tarama-kbaslik { font-size: 1.3rem; font-weight: 800; line-height: 1.2; }
+  .modulex-deger-isik-tarama-kmetin { color: --muted--; font-size: 0.96rem; line-height: 1.65; }
+  @keyframes modulex-deger-isik-tarama-tara { from { transform: translateY(-110%); } to { transform: translateY(420%); } }
+  @media (max-width: 768px) {
+    .modulex-deger-isik-tarama-kart { min-height: 0; }
+    .modulex-deger-isik-tarama-dev { font-size: 130px; }
+  }
+  .modulex-deger-isik-tarama-bag { color: inherit; text-decoration: none; }
+  .modulex-deger-isik-tarama-bag::after { content: ""; position: absolute; inset: 0; z-index: 3; }
+  .modulex-deger-isik-tarama-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-deger-isik-tarama :is(.modulex-deger-isik-tarama-baslik, .modulex-deger-isik-tarama-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-deger-isik-tarama-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-deger-isik-tarama { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-deger-isik-tarama *, .modulex-deger-isik-tarama *::before, .modulex-deger-isik-tarama *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-deger-isik-tarama";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const gozlem = (s, P, az) => {
+        const gor = () => s.classList.add(P + "--gor");
+        s.classList.add(P + "--hazir");
+        if (az || !("IntersectionObserver" in window)) { gor(); return; }
+        const io = new IntersectionObserver((gs) => {
+          gs.forEach((g) => { if (g.isIntersecting) { gor(); io.disconnect(); } });
+        }, { threshold: 0.15 });
+        io.observe(s);
+      };
+    const isik = (s, P) => {
+        const e = s.querySelector("[data-isik]");
+        if (!e) return;
+        const k = [...e.querySelectorAll("." + P + "-kart")];
+        let bekle = false;
+        let son = null;
+        const yaz = () => {
+          bekle = false;
+          if (!son) return;
+          k.forEach((x) => {
+            const r = x.getBoundingClientRect();
+            x.style.setProperty("--x", Math.round(son.clientX - r.left) + "px");
+            x.style.setProperty("--y", Math.round(son.clientY - r.top) + "px");
+          });
+        };
+        e.addEventListener("pointermove", (v) => { son = v; if (!bekle) { bekle = true; requestAnimationFrame(yaz); } }, { passive: true });
+        e.addEventListener("pointerleave", () => { son = null; k.forEach((x) => { x.style.removeProperty("--x"); x.style.removeProperty("--y"); }); });
+        k.forEach((x) => x.addEventListener("focusin", () => { x.style.setProperty("--x", "50%"); x.style.setProperty("--y", "50%"); }));
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      gozlem(s, P, az);
+      isik(s, P, az);
+    });
+  })();
+</script>
