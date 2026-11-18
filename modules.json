@@ -14,28 +14,38 @@
         "ariaLabel": {
           "tr": "Demo site uyarısı",
           "en": "Demo site notice",
-          "ar": "تنبيه الموقع التجريبي"
+          "ar": "تنبيه الموقع التجريبي",
+          "de": "Hinweis zur Demo-Website",
+          "ru": "Предупреждение о демонстрационном сайте"
         },
         "text": {
           "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
           "en": "This is a demo site — the content is fictional and no payment is taken",
-          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات",
+          "de": "Dies ist eine Demo-Website — die Inhalte sind fiktiv, es wird keine Zahlung entgegengenommen",
+          "ru": "Это демо-сайт — контент вымышленный, оплата не принимается"
         },
         "ctaText": {
           "tr": "Bu temayı iste",
           "en": "Get this theme",
-          "ar": "اطلب هذا القالب"
+          "ar": "اطلب هذا القالب",
+          "de": "Dieses Thema anfordern",
+          "ru": "Заказать эту тему"
         },
         "newTabText": {
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
-          "ar": "(يفتح في علامة تبويب جديدة)"
+          "ar": "(يفتح في علامة تبويب جديدة)",
+          "de": "(öffnet in einem neuen Tab)",
+          "ru": "(открывается в новой вкладке)"
         },
         "girisHref": "",
         "girisText": {
           "tr": "Üye Girişi",
           "en": "Login",
-          "ar": "تسجيل الدخول"
+          "ar": "تسجيل الدخول",
+          "de": "Mitglieder-Login",
+          "ru": "Вход для участников"
         },
         "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
       },
@@ -78,28 +88,38 @@
         "badge": {
           "tr": "Emlak",
           "en": "Real estate",
-          "ar": "عقارات"
+          "ar": "عقارات",
+          "de": "Immobilien",
+          "ru": "Недвижимость"
         },
         "title": {
           "tr": "Hayalinizdeki yeri birlikte bulalım",
           "en": "Let's find your dream home together",
-          "ar": "لنجد معًا المكان الذي تحلم به"
+          "ar": "لنجد معًا المكان الذي تحلم به",
+          "de": "Finden wir gemeinsam Ihren Traumort",
+          "ru": "Давайте вместе найдём место вашей мечты"
         },
         "description": {
           "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
           "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
-          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان.",
+          "de": "Ausgewählte Immobilien zum Kauf und zur Miete, transparenter Ablauf, bei jedem Inserat die Nummer der Vollmacht.",
+          "ru": "Избранный портфель недвижимости на продажу и в аренду, прозрачный процесс, номер разрешительного документа в каждом объявлении."
         },
         "btn1Text": {
           "tr": "İlanları gör",
           "en": "Browse listings",
-          "ar": "تصفح الإعلانات"
+          "ar": "تصفح الإعلانات",
+          "de": "Anzeigen durchsuchen",
+          "ru": "Просмотреть объявления"
         },
         "btn1Url": "ilanlar",
         "btn2Text": {
           "tr": "Değerleme",
           "en": "Valuation",
-          "ar": "التقييم"
+          "ar": "التقييم",
+          "de": "Bewertung",
+          "ru": "Оценка"
         },
         "btn2Url": "iletisim"
       },
@@ -129,127 +149,177 @@
         "title": {
           "tr": "Emlak İlanları",
           "en": "Property Listings",
-          "ar": "إعلانات العقارات"
+          "ar": "إعلانات العقارات",
+          "de": "Immobilienangebote",
+          "ru": "Объявления о недвижимости"
         },
         "subtitle": {
           "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
           "en": "Filter, sort and compare properties for sale and for rent.",
-          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها.",
+          "de": "Objekte zum Kauf und zur Miete filtern, sortieren und vergleichen.",
+          "ru": "Фильтруйте, сортируйте и сравнивайте объекты на продажу и в аренду."
         },
         "searchLabel": {
           "tr": "İlan ara",
           "en": "Search listings",
-          "ar": "ابحث في الإعلانات"
+          "ar": "ابحث في الإعلانات",
+          "de": "Inserate suchen",
+          "ru": "Искать объявления"
         },
         "searchPlaceholder": {
           "tr": "Semt veya ilan başlığı…",
           "en": "District or listing title…",
-          "ar": "الحي أو عنوان الإعلان…"
+          "ar": "الحي أو عنوان الإعلان…",
+          "de": "Stadtteil oder Anzeigentitel…",
+          "ru": "Район или заголовок объявления…"
         },
         "dealGroupLabel": {
           "tr": "İşlem türü",
           "en": "Deal type",
-          "ar": "نوع الصفقة"
+          "ar": "نوع الصفقة",
+          "de": "Transaktionstyp",
+          "ru": "Тип сделки"
         },
         "dealAll": {
           "tr": "Tümü",
           "en": "All",
-          "ar": "الكل"
+          "ar": "الكل",
+          "de": "Alle",
+          "ru": "Все"
         },
         "dealSale": {
           "tr": "Satılık",
           "en": "For sale",
-          "ar": "للبيع"
+          "ar": "للبيع",
+          "de": "Zu verkaufen",
+          "ru": "Продам"
         },
         "dealRent": {
           "tr": "Kiralık",
           "en": "For rent",
-          "ar": "للإيجار"
+          "ar": "للإيجار",
+          "de": "Zu vermieten",
+          "ru": "Аренда"
         },
         "filtersTitle": {
           "tr": "Filtreler",
           "en": "Filters",
-          "ar": "التصفية"
+          "ar": "التصفية",
+          "de": "Filter",
+          "ru": "Фильтры"
         },
         "typeTitle": {
           "tr": "Emlak türü",
           "en": "Property type",
-          "ar": "نوع العقار"
+          "ar": "نوع العقار",
+          "de": "Eigentumsart",
+          "ru": "Тип недвижимости"
         },
         "roomsTitle": {
           "tr": "Oda sayısı",
           "en": "Rooms",
-          "ar": "عدد الغرف"
+          "ar": "عدد الغرف",
+          "de": "Zimmerzahl",
+          "ru": "Количество комнат"
         },
         "m2Title": {
           "tr": "Alan (m²)",
           "en": "Area (m²)",
-          "ar": "المساحة (م²)"
+          "ar": "المساحة (م²)",
+          "de": "Fläche (m²)",
+          "ru": "Площадь (м²)"
         },
         "priceTitle": {
           "tr": "Fiyat",
           "en": "Price",
-          "ar": "السعر"
+          "ar": "السعر",
+          "de": "Preis",
+          "ru": "Цена"
         },
         "districtTitle": {
           "tr": "Semt",
           "en": "District",
-          "ar": "الحي"
+          "ar": "الحي",
+          "de": "Stadtviertel",
+          "ru": "Район"
         },
         "districtAll": {
           "tr": "Tüm semtler",
           "en": "All districts",
-          "ar": "كل الأحياء"
+          "ar": "كل الأحياء",
+          "de": "Alle Stadtteile",
+          "ru": "Все районы"
         },
         "minLabel": {
           "tr": "En az",
           "en": "Min",
-          "ar": "الحد الأدنى"
+          "ar": "الحد الأدنى",
+          "de": "Mindestens",
+          "ru": "Минимум"
         },
         "maxLabel": {
           "tr": "En çok",
           "en": "Max",
-          "ar": "الحد الأقصى"
+          "ar": "الحد الأقصى",
+          "de": "Max",
+          "ru": "Макс"
         },
         "m2Unit": {
           "tr": "m²",
           "en": "m²",
-          "ar": "م²"
+          "ar": "م²",
+          "de": "m²",
+          "ru": "m²"
         },
         "sortLabel": {
           "tr": "Sırala",
           "en": "Sort by",
-          "ar": "ترتيب حسب"
+          "ar": "ترتيب حسب",
+          "de": "Sortieren",
+          "ru": "Сортировать"
         },
         "sortDate": {
           "tr": "En yeni",
           "en": "Newest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "de": "Neueste",
+          "ru": "Самые новые"
         },
         "sortPrice": {
           "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
-          "ar": "السعر: من الأقل إلى الأعلى"
+          "ar": "السعر: من الأقل إلى الأعلى",
+          "de": "Preis: aufsteigend",
+          "ru": "Цена: по возрастанию"
         },
         "sortPriceDesc": {
           "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
-          "ar": "السعر: من الأعلى إلى الأقل"
+          "ar": "السعر: من الأعلى إلى الأقل",
+          "de": "Preis: absteigend",
+          "ru": "Цена: по убыванию"
         },
         "sortM2": {
           "tr": "Alan: büyükten küçüğe",
           "en": "Area: large to small",
-          "ar": "المساحة: من الأكبر إلى الأصغر"
+          "ar": "المساحة: من الأكبر إلى الأصغر",
+          "de": "Fläche: von groß nach klein",
+          "ru": "Площадь: от большой к малой"
         },
         "sortM2Asc": {
           "tr": "Alan: küçükten büyüğe",
           "en": "Area: small to large",
-          "ar": "المساحة: من الأصغر إلى الأكبر"
+          "ar": "المساحة: من الأصغر إلى الأكبر",
+          "de": "Fläche: von klein nach groß",
+          "ru": "Площадь: от меньшей к большей"
         },
         "resetFilters": {
           "tr": "Filtreleri temizle",
           "en": "Clear filters",
-          "ar": "مسح عوامل التصفية"
+          "ar": "مسح عوامل التصفية",
+          "de": "Filter zurücksetzen",
+          "ru": "Сбросить фильтры"
         },
         "resultCount": {
           "tr": {
@@ -289,62 +359,86 @@
         "noResultTitle": {
           "tr": "Sonuç bulunamadı",
           "en": "No results found",
-          "ar": "لم يتم العثور على نتائج"
+          "ar": "لم يتم العثور على نتائج",
+          "de": "Keine Ergebnisse gefunden",
+          "ru": "Ничего не найдено"
         },
         "noResultText": {
           "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
           "en": "Try loosening or clearing your filters.",
-          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها.",
+          "de": "Versuchen Sie, die Filter zu lockern oder zurückzusetzen.",
+          "ru": "Попробуйте ослабить или сбросить фильтры."
         },
         "pagesLabel": {
           "tr": "Sayfalama",
           "en": "Pagination",
-          "ar": "التنقل بين الصفحات"
+          "ar": "التنقل بين الصفحات",
+          "de": "Seitennavigation",
+          "ru": "Постраничная навигация"
         },
         "prevPage": {
           "tr": "Önceki sayfa",
           "en": "Previous page",
-          "ar": "الصفحة السابقة"
+          "ar": "الصفحة السابقة",
+          "de": "Vorherige Seite",
+          "ru": "Предыдущая страница"
         },
         "nextPage": {
           "tr": "Sonraki sayfa",
           "en": "Next page",
-          "ar": "الصفحة التالية"
+          "ar": "الصفحة التالية",
+          "de": "Nächste Seite",
+          "ru": "Следующая страница"
         },
         "pageN": {
           "tr": "Sayfa {n}",
           "en": "Page {n}",
-          "ar": "الصفحة {n}"
+          "ar": "الصفحة {n}",
+          "de": "Seite {n}",
+          "ru": "Страница {n}"
         },
         "permitLabel": {
           "tr": "Yetki belgesi no",
           "en": "Authorization certificate no.",
-          "ar": "رقم شهادة التفويض"
+          "ar": "رقم شهادة التفويض",
+          "de": "Zulassungsnummer",
+          "ru": "Номер разрешительного документа"
         },
         "permitDemo": {
           "tr": "Yetki belgesi no: örnek ilan (DEMO)",
           "en": "Authorization no.: sample listing (DEMO)",
-          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)",
+          "de": "Zulassungsnr.: Beispielanzeige (DEMO)",
+          "ru": "Номер разрешения: пример объявления (ДЕМО)"
         },
         "perMonth": {
           "tr": "/ ay",
           "en": "/ month",
-          "ar": "/ شهريًا"
+          "ar": "/ شهريًا",
+          "de": "/ month",
+          "ru": "/ month"
         },
         "details": {
           "tr": "İlan detayı",
           "en": "View listing",
-          "ar": "تفاصيل الإعلان"
+          "ar": "تفاصيل الإعلان",
+          "de": "Anzeigedetails",
+          "ru": "Детали объявления"
         },
         "dateLabel": {
           "tr": "İlan tarihi",
           "en": "Listed on",
-          "ar": "تاريخ الإعلان"
+          "ar": "تاريخ الإعلان",
+          "de": "Einschaltungsdatum",
+          "ru": "Дата размещения"
         },
         "demoNote": {
           "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
           "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
-          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي).",
+          "de": "Die Anzeigen auf dieser Seite sind fiktiv; die Genehmigungsnummern sind Beispiele (DEMO).",
+          "ru": "Объявления на этой странице вымышлены; номера разрешений приведены в качестве примеров (DEMO)."
         }
       },
       "version": "1.0.0",
@@ -361,27 +455,37 @@
           "daire": {
             "tr": "Daire",
             "en": "Apartment",
-            "ar": "شقة"
+            "ar": "شقة",
+            "de": "Wohnung",
+            "ru": "Квартира"
           },
           "villa": {
             "tr": "Villa",
             "en": "Villa",
-            "ar": "فيلا"
+            "ar": "فيلا",
+            "de": "Villa",
+            "ru": "Villa"
           },
           "rezidans": {
             "tr": "Rezidans",
             "en": "Residence",
-            "ar": "مجمّع سكني"
+            "ar": "مجمّع سكني",
+            "de": "Residenz",
+            "ru": "Резиденция"
           },
           "arsa": {
             "tr": "Arsa",
             "en": "Land",
-            "ar": "أرض"
+            "ar": "أرض",
+            "de": "Grundstück",
+            "ru": "Участок"
           },
           "isyeri": {
             "tr": "İşyeri",
             "en": "Commercial",
-            "ar": "محل تجاري"
+            "ar": "محل تجاري",
+            "de": "Arbeitsplatz",
+            "ru": "Место работы"
           }
         },
         "listings": [
@@ -390,7 +494,9 @@
             "title": {
               "tr": "Deniz manzaralı 3+1 daire",
               "en": "3+1 apartment with sea view",
-              "ar": "شقة 3+1 بإطلالة بحرية"
+              "ar": "شقة 3+1 بإطلالة بحرية",
+              "de": "3+1-Wohnung mit Meerblick",
+              "ru": "Квартира 3+1 с видом на море"
             },
             "deal": "sale",
             "type": "daire",
@@ -401,12 +507,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Kadıköy",
               "en": "Kadikoy",
-              "ar": "قاضي كوي"
+              "ar": "قاضي كوي",
+              "de": "Kadıköy",
+              "ru": "Кадыкёй"
             },
             "img": [],
             "permitNo": "DEMO-34-0001",
@@ -415,7 +525,9 @@
             "badge": {
               "tr": "Yeni",
               "en": "New",
-              "ar": "جديد"
+              "ar": "جديد",
+              "de": "Neu",
+              "ru": "Новинка"
             }
           },
           {
@@ -423,7 +535,9 @@
             "title": {
               "tr": "Bahçe katı 2+1 kiralık daire",
               "en": "2+1 garden-floor apartment for rent",
-              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار",
+              "de": "2+1-Mietwohnung im Gartengeschoss",
+              "ru": "Квартира 2+1 в аренду на садовом этаже"
             },
             "deal": "rent",
             "type": "daire",
@@ -434,12 +548,16 @@
             "city": {
               "tr": "Ankara",
               "en": "Ankara",
-              "ar": "أنقرة"
+              "ar": "أنقرة",
+              "de": "Ankara",
+              "ru": "Ankara"
             },
             "district": {
               "tr": "Çankaya",
               "en": "Cankaya",
-              "ar": "تشانكايا"
+              "ar": "تشانكايا",
+              "de": "Çankaya",
+              "ru": "Чанкая"
             },
             "img": [],
             "permitNo": "DEMO-06-0002",
@@ -451,7 +569,9 @@
             "title": {
               "tr": "Havuzlu müstakil villa",
               "en": "Detached villa with pool",
-              "ar": "فيلا مستقلة مع مسبح"
+              "ar": "فيلا مستقلة مع مسبح",
+              "de": "Freistehende Villa mit Pool",
+              "ru": "Отдельно стоящая вилла с бассейном"
             },
             "deal": "sale",
             "type": "villa",
@@ -462,12 +582,16 @@
             "city": {
               "tr": "Muğla",
               "en": "Mugla",
-              "ar": "موغلا"
+              "ar": "موغلا",
+              "de": "Muğla",
+              "ru": "Мугла"
             },
             "district": {
               "tr": "Bodrum",
               "en": "Bodrum",
-              "ar": "بودروم"
+              "ar": "بودروم",
+              "de": "Bodrum",
+              "ru": "Bodrum"
             },
             "img": [],
             "permitNo": "DEMO-48-0003",
@@ -479,7 +603,9 @@
             "title": {
               "tr": "Eşyalı 1+1 kiralık daire",
               "en": "Furnished 1+1 apartment for rent",
-              "ar": "شقة 1+1 مفروشة للإيجار"
+              "ar": "شقة 1+1 مفروشة للإيجار",
+              "de": "Möblierte 1+1-Wohnung zur Miete",
+              "ru": "Меблированная квартира 1+1 в аренду"
             },
             "deal": "rent",
             "type": "daire",
@@ -490,12 +616,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Karşıyaka",
               "en": "Karsiyaka",
-              "ar": "قارشيياكا"
+              "ar": "قارشيياكا",
+              "de": "Karşıyaka",
+              "ru": "Каршияка"
             },
             "img": [],
             "permitNo": "DEMO-35-0004",
@@ -507,7 +637,9 @@
             "title": {
               "tr": "İmarlı satılık arsa",
               "en": "Zoned plot for sale",
-              "ar": "أرض مخططة للبيع"
+              "ar": "أرض مخططة للبيع",
+              "de": "Baugrundstück mit Bebauungsplan zu verkaufen",
+              "ru": "Участок под застройку на продажу"
             },
             "deal": "sale",
             "type": "arsa",
@@ -518,12 +650,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Urla",
               "en": "Urla",
-              "ar": "أورلا"
+              "ar": "أورلا",
+              "de": "Urla",
+              "ru": "Urla"
             },
             "img": [],
             "permitNo": "DEMO-35-0005",
@@ -535,7 +671,9 @@
             "title": {
               "tr": "Cadde üstü kiralık dükkân",
               "en": "Street-front shop for rent",
-              "ar": "محل على الشارع الرئيسي للإيجار"
+              "ar": "محل على الشارع الرئيسي للإيجار",
+              "de": "Ladenlokal an der Hauptstraße zu vermieten",
+              "ru": "Магазин на главной улице в аренду"
             },
             "deal": "rent",
             "type": "isyeri",
@@ -546,12 +684,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Şişli",
               "en": "Sisli",
-              "ar": "شيشلي"
+              "ar": "شيشلي",
+              "de": "Şişli",
+              "ru": "Шишли"
             },
             "img": [],
             "permitNo": "DEMO-34-0006",
@@ -563,7 +705,9 @@
             "title": {
               "tr": "Site içinde 2+1 daire",
               "en": "2+1 apartment in a gated complex",
-              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر",
+              "de": "2+1 Wohnung in einer Wohnanlage",
+              "ru": "Квартира 2+1 в закрытом комплексе"
             },
             "deal": "sale",
             "type": "daire",
@@ -574,12 +718,16 @@
             "city": {
               "tr": "Bursa",
               "en": "Bursa",
-              "ar": "بورصة"
+              "ar": "بورصة",
+              "de": "Bursa",
+              "ru": "Bursa"
             },
             "district": {
               "tr": "Nilüfer",
               "en": "Nilufer",
-              "ar": "نيلوفر"
+              "ar": "نيلوفر",
+              "de": "Nilüfer",
+              "ru": "Nilüfer"
             },
             "img": [],
             "permitNo": "DEMO-16-0007",
@@ -591,7 +739,9 @@
             "title": {
               "tr": "Merkezi konumda 1+1 rezidans",
               "en": "1+1 residence in a central location",
-              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي",
+              "de": "1+1-Residenz in zentraler Lage",
+              "ru": "Резиденция 1+1 в центральном районе"
             },
             "deal": "sale",
             "type": "rezidans",
@@ -602,12 +752,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Beşiktaş",
               "en": "Besiktas",
-              "ar": "بشيكتاش"
+              "ar": "بشيكتاش",
+              "de": "Beşiktaş",
+              "ru": "Бешикташ"
             },
             "img": [],
             "permitNo": "DEMO-34-0008",
@@ -642,7 +796,9 @@
           "label": {
             "tr": "Tamamlanan Proje",
             "en": "Completed Projects",
-            "ar": "مشروع منجز"
+            "ar": "مشروع منجز",
+            "de": "Abgeschlossene Projekte",
+            "ru": "Завершённые проекты"
           },
           "icon": "task_alt"
         },
@@ -652,7 +808,9 @@
           "label": {
             "tr": "Mutlu Müşteri",
             "en": "Happy Customers",
-            "ar": "عميل سعيد"
+            "ar": "عميل سعيد",
+            "de": "Zufriedene Kunden",
+            "ru": "Довольные клиенты"
           },
           "icon": "sentiment_satisfied"
         },
@@ -662,7 +820,9 @@
           "label": {
             "tr": "Yıllık Deneyim",
             "en": "Years of Experience",
-            "ar": "سنوات من الخبرة"
+            "ar": "سنوات من الخبرة",
+            "de": "Jahre Erfahrung",
+            "ru": "Лет опыта"
           },
           "icon": "workspace_premium"
         },
@@ -672,7 +832,9 @@
           "label": {
             "tr": "Destek",
             "en": "Support",
-            "ar": "الدعم"
+            "ar": "الدعم",
+            "de": "Support",
+            "ru": "Поддержка"
           },
           "icon": "support_agent"
         }
@@ -696,17 +858,23 @@
         "badge": {
           "tr": "Ekip",
           "en": "Team",
-          "ar": "الفريق"
+          "ar": "الفريق",
+          "de": "Team",
+          "ru": "Команда"
         },
         "title": {
           "tr": "Danışmanlarımız",
           "en": "Our advisors",
-          "ar": "مستشارونا"
+          "ar": "مستشارونا",
+          "de": "Unsere Berater",
+          "ru": "Наши консультанты"
         },
         "description": {
           "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
           "en": "Our experienced team is here to add value to your projects.",
-          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك.",
+          "de": "Unser erfahrenes Team ist hier, um Ihren Projekten Mehrwert zu verleihen.",
+          "ru": "Наша опытная команда готова принести пользу вашим проектам."
         },
         "accentText": "#ffffff"
       },
@@ -718,12 +886,16 @@
           "role": {
             "tr": "Kurucu / CEO",
             "en": "Founder / CEO",
-            "ar": "المؤسس / الرئيس التنفيذي"
+            "ar": "المؤسس / الرئيس التنفيذي",
+            "de": "Gründer / CEO",
+            "ru": "Основатель / CEO"
           },
           "bio": {
             "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
             "en": "Strategy and management with 10+ years of industry experience.",
-            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع.",
+            "de": "Strategie und Management mit über 10 Jahren Branchenerfahrung.",
+            "ru": "Стратегия и управление с опытом работы в отрасли более 10 лет."
           },
           "img": ""
         },
@@ -732,12 +904,16 @@
           "role": {
             "tr": "Tasarım Direktörü",
             "en": "Design Director",
-            "ar": "مدير التصميم"
+            "ar": "مدير التصميم",
+            "de": "Design Director",
+            "ru": "Арт-директор"
           },
           "bio": {
             "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
             "en": "Brand identity and user experience design.",
-            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم.",
+            "de": "Markenidentität und Gestaltung der Nutzererfahrung.",
+            "ru": "Фирменный стиль и дизайн пользовательского опыта."
           },
           "img": ""
         },
@@ -746,12 +922,16 @@
           "role": {
             "tr": "Yazılım Geliştirici",
             "en": "Software Developer",
-            "ar": "مطوّر برمجيات"
+            "ar": "مطوّر برمجيات",
+            "de": "Softwareentwickler",
+            "ru": "Разработчик программного обеспечения"
           },
           "bio": {
             "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
             "en": "Scalable solutions with modern web technologies.",
-            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة.",
+            "de": "Skalierbare Lösungen mit modernen Webtechnologien.",
+            "ru": "Масштабируемые решения на современных веб-технологиях."
           },
           "img": ""
         }
@@ -796,7 +976,9 @@
         "name": {
           "tr": "Bize Ulaşın",
           "en": "Contact Us",
-          "ar": "تواصل معنا"
+          "ar": "تواصل معنا",
+          "de": "Kontaktieren Sie uns",
+          "ru": "Свяжитесь с нами"
         },
         "margin": "30px 0px 30px 0px",
         "linkcolor": "var(--mx-site-primary, #2563eb)",
@@ -850,33 +1032,45 @@
         "name": {
           "tr": "Hakkımızda",
           "en": "About us",
-          "ar": "من نحن"
+          "ar": "من نحن",
+          "de": "Über uns",
+          "ru": "О нас"
         },
         "description": {
           "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
           "en": "This page is a theme sample; its content is filled in during demo production.",
-          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي.",
+          "de": "Diese Seite ist ein Theme-Beispiel; der Inhalt wird bei der Demo-Erstellung befüllt.",
+          "ru": "Эта страница — пример темы; содержание заполняется при создании демо."
         },
         "name2": {
           "tr": "Vizyonumuz",
           "en": "Our Vision",
-          "ar": "رؤيتنا"
+          "ar": "رؤيتنا",
+          "de": "Unsere Vision",
+          "ru": "Наше видение"
         },
         "spot2": {
           "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
           "en": "To lead our industry with innovative approaches.",
-          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة.",
+          "de": "In unserer Branche mit innovativen Ansätzen führend zu sein.",
+          "ru": "Быть лидером в нашей отрасли благодаря инновационным подходам."
         },
         "icon2": "visibility",
         "name3": {
           "tr": "Misyonumuz",
           "en": "Our Mission",
-          "ar": "مهمتنا"
+          "ar": "مهمتنا",
+          "de": "Unsere Mission",
+          "ru": "Наша миссия"
         },
         "spot3": {
           "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
           "en": "Deliver needed solutions quickly and transparently.",
-          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية.",
+          "de": "Die benötigten Lösungen schnell und transparent bereitstellen.",
+          "ru": "Быстро и прозрачно предлагать необходимые решения."
         },
         "icon3": "flag",
         "img": "index.jpg",
@@ -887,7 +1081,9 @@
         "title": {
           "tr": "Kurumsal",
           "en": "Corporate",
-          "ar": "المؤسسة"
+          "ar": "المؤسسة",
+          "de": "Über uns",
+          "ru": "О нас"
         },
         "stil": ""
       },
@@ -917,127 +1113,177 @@
         "title": {
           "tr": "Emlak İlanları",
           "en": "Property Listings",
-          "ar": "إعلانات العقارات"
+          "ar": "إعلانات العقارات",
+          "de": "Immobilienangebote",
+          "ru": "Объявления о недвижимости"
         },
         "subtitle": {
           "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
           "en": "Filter, sort and compare properties for sale and for rent.",
-          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها.",
+          "de": "Objekte zum Kauf und zur Miete filtern, sortieren und vergleichen.",
+          "ru": "Фильтруйте, сортируйте и сравнивайте объекты на продажу и в аренду."
         },
         "searchLabel": {
           "tr": "İlan ara",
           "en": "Search listings",
-          "ar": "ابحث في الإعلانات"
+          "ar": "ابحث في الإعلانات",
+          "de": "Inserate suchen",
+          "ru": "Искать объявления"
         },
         "searchPlaceholder": {
           "tr": "Semt veya ilan başlığı…",
           "en": "District or listing title…",
-          "ar": "الحي أو عنوان الإعلان…"
+          "ar": "الحي أو عنوان الإعلان…",
+          "de": "Stadtteil oder Anzeigentitel…",
+          "ru": "Район или заголовок объявления…"
         },
         "dealGroupLabel": {
           "tr": "İşlem türü",
           "en": "Deal type",
-          "ar": "نوع الصفقة"
+          "ar": "نوع الصفقة",
+          "de": "Transaktionstyp",
+          "ru": "Тип сделки"
         },
         "dealAll": {
           "tr": "Tümü",
           "en": "All",
-          "ar": "الكل"
+          "ar": "الكل",
+          "de": "Alle",
+          "ru": "Все"
         },
         "dealSale": {
           "tr": "Satılık",
           "en": "For sale",
-          "ar": "للبيع"
+          "ar": "للبيع",
+          "de": "Zu verkaufen",
+          "ru": "Продам"
         },
         "dealRent": {
           "tr": "Kiralık",
           "en": "For rent",
-          "ar": "للإيجار"
+          "ar": "للإيجار",
+          "de": "Zu vermieten",
+          "ru": "Аренда"
         },
         "filtersTitle": {
           "tr": "Filtreler",
           "en": "Filters",
-          "ar": "التصفية"
+          "ar": "التصفية",
+          "de": "Filter",
+          "ru": "Фильтры"
         },
         "typeTitle": {
           "tr": "Emlak türü",
           "en": "Property type",
-          "ar": "نوع العقار"
+          "ar": "نوع العقار",
+          "de": "Eigentumsart",
+          "ru": "Тип недвижимости"
         },
         "roomsTitle": {
           "tr": "Oda sayısı",
           "en": "Rooms",
-          "ar": "عدد الغرف"
+          "ar": "عدد الغرف",
+          "de": "Zimmerzahl",
+          "ru": "Количество комнат"
         },
         "m2Title": {
           "tr": "Alan (m²)",
           "en": "Area (m²)",
-          "ar": "المساحة (م²)"
+          "ar": "المساحة (م²)",
+          "de": "Fläche (m²)",
+          "ru": "Площадь (м²)"
         },
         "priceTitle": {
           "tr": "Fiyat",
           "en": "Price",
-          "ar": "السعر"
+          "ar": "السعر",
+          "de": "Preis",
+          "ru": "Цена"
         },
         "districtTitle": {
           "tr": "Semt",
           "en": "District",
-          "ar": "الحي"
+          "ar": "الحي",
+          "de": "Stadtviertel",
+          "ru": "Район"
         },
         "districtAll": {
           "tr": "Tüm semtler",
           "en": "All districts",
-          "ar": "كل الأحياء"
+          "ar": "كل الأحياء",
+          "de": "Alle Stadtteile",
+          "ru": "Все районы"
         },
         "minLabel": {
           "tr": "En az",
           "en": "Min",
-          "ar": "الحد الأدنى"
+          "ar": "الحد الأدنى",
+          "de": "Mindestens",
+          "ru": "Минимум"
         },
         "maxLabel": {
           "tr": "En çok",
           "en": "Max",
-          "ar": "الحد الأقصى"
+          "ar": "الحد الأقصى",
+          "de": "Max",
+          "ru": "Макс"
         },
         "m2Unit": {
           "tr": "m²",
           "en": "m²",
-          "ar": "م²"
+          "ar": "م²",
+          "de": "m²",
+          "ru": "m²"
         },
         "sortLabel": {
           "tr": "Sırala",
           "en": "Sort by",
-          "ar": "ترتيب حسب"
+          "ar": "ترتيب حسب",
+          "de": "Sortieren",
+          "ru": "Сортировать"
         },
         "sortDate": {
           "tr": "En yeni",
           "en": "Newest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "de": "Neueste",
+          "ru": "Самые новые"
         },
         "sortPrice": {
           "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
-          "ar": "السعر: من الأقل إلى الأعلى"
+          "ar": "السعر: من الأقل إلى الأعلى",
+          "de": "Preis: aufsteigend",
+          "ru": "Цена: по возрастанию"
         },
         "sortPriceDesc": {
           "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
-          "ar": "السعر: من الأعلى إلى الأقل"
+          "ar": "السعر: من الأعلى إلى الأقل",
+          "de": "Preis: absteigend",
+          "ru": "Цена: по убыванию"
         },
         "sortM2": {
           "tr": "Alan: büyükten küçüğe",
           "en": "Area: large to small",
-          "ar": "المساحة: من الأكبر إلى الأصغر"
+          "ar": "المساحة: من الأكبر إلى الأصغر",
+          "de": "Fläche: von groß nach klein",
+          "ru": "Площадь: от большой к малой"
         },
         "sortM2Asc": {
           "tr": "Alan: küçükten büyüğe",
           "en": "Area: small to large",
-          "ar": "المساحة: من الأصغر إلى الأكبر"
+          "ar": "المساحة: من الأصغر إلى الأكبر",
+          "de": "Fläche: von klein nach groß",
+          "ru": "Площадь: от меньшей к большей"
         },
         "resetFilters": {
           "tr": "Filtreleri temizle",
           "en": "Clear filters",
-          "ar": "مسح عوامل التصفية"
+          "ar": "مسح عوامل التصفية",
+          "de": "Filter zurücksetzen",
+          "ru": "Сбросить фильтры"
         },
         "resultCount": {
           "tr": {
@@ -1077,62 +1323,86 @@
         "noResultTitle": {
           "tr": "Sonuç bulunamadı",
           "en": "No results found",
-          "ar": "لم يتم العثور على نتائج"
+          "ar": "لم يتم العثور على نتائج",
+          "de": "Keine Ergebnisse gefunden",
+          "ru": "Ничего не найдено"
         },
         "noResultText": {
           "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
           "en": "Try loosening or clearing your filters.",
-          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها.",
+          "de": "Versuchen Sie, die Filter zu lockern oder zurückzusetzen.",
+          "ru": "Попробуйте ослабить или сбросить фильтры."
         },
         "pagesLabel": {
           "tr": "Sayfalama",
           "en": "Pagination",
-          "ar": "التنقل بين الصفحات"
+          "ar": "التنقل بين الصفحات",
+          "de": "Seitennavigation",
+          "ru": "Постраничная навигация"
         },
         "prevPage": {
           "tr": "Önceki sayfa",
           "en": "Previous page",
-          "ar": "الصفحة السابقة"
+          "ar": "الصفحة السابقة",
+          "de": "Vorherige Seite",
+          "ru": "Предыдущая страница"
         },
         "nextPage": {
           "tr": "Sonraki sayfa",
           "en": "Next page",
-          "ar": "الصفحة التالية"
+          "ar": "الصفحة التالية",
+          "de": "Nächste Seite",
+          "ru": "Следующая страница"
         },
         "pageN": {
           "tr": "Sayfa {n}",
           "en": "Page {n}",
-          "ar": "الصفحة {n}"
+          "ar": "الصفحة {n}",
+          "de": "Seite {n}",
+          "ru": "Страница {n}"
         },
         "permitLabel": {
           "tr": "Yetki belgesi no",
           "en": "Authorization certificate no.",
-          "ar": "رقم شهادة التفويض"
+          "ar": "رقم شهادة التفويض",
+          "de": "Zulassungsnummer",
+          "ru": "Номер разрешительного документа"
         },
         "permitDemo": {
           "tr": "Yetki belgesi no: örnek ilan (DEMO)",
           "en": "Authorization no.: sample listing (DEMO)",
-          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)",
+          "de": "Zulassungsnr.: Beispielanzeige (DEMO)",
+          "ru": "Номер разрешения: пример объявления (ДЕМО)"
         },
         "perMonth": {
           "tr": "/ ay",
           "en": "/ month",
-          "ar": "/ شهريًا"
+          "ar": "/ شهريًا",
+          "de": "/ month",
+          "ru": "/ month"
         },
         "details": {
           "tr": "İlan detayı",
           "en": "View listing",
-          "ar": "تفاصيل الإعلان"
+          "ar": "تفاصيل الإعلان",
+          "de": "Anzeigedetails",
+          "ru": "Детали объявления"
         },
         "dateLabel": {
           "tr": "İlan tarihi",
           "en": "Listed on",
-          "ar": "تاريخ الإعلان"
+          "ar": "تاريخ الإعلان",
+          "de": "Einschaltungsdatum",
+          "ru": "Дата размещения"
         },
         "demoNote": {
           "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
           "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
-          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي).",
+          "de": "Die Anzeigen auf dieser Seite sind fiktiv; die Genehmigungsnummern sind Beispiele (DEMO).",
+          "ru": "Объявления на этой странице вымышлены; номера разрешений приведены в качестве примеров (DEMO)."
         }
       },
       "version": "1.0.0",
@@ -1149,27 +1419,37 @@
           "daire": {
             "tr": "Daire",
             "en": "Apartment",
-            "ar": "شقة"
+            "ar": "شقة",
+            "de": "Wohnung",
+            "ru": "Квартира"
           },
           "villa": {
             "tr": "Villa",
             "en": "Villa",
-            "ar": "فيلا"
+            "ar": "فيلا",
+            "de": "Villa",
+            "ru": "Villa"
           },
           "rezidans": {
             "tr": "Rezidans",
             "en": "Residence",
-            "ar": "مجمّع سكني"
+            "ar": "مجمّع سكني",
+            "de": "Residenz",
+            "ru": "Резиденция"
           },
           "arsa": {
             "tr": "Arsa",
             "en": "Land",
-            "ar": "أرض"
+            "ar": "أرض",
+            "de": "Grundstück",
+            "ru": "Участок"
           },
           "isyeri": {
             "tr": "İşyeri",
             "en": "Commercial",
-            "ar": "محل تجاري"
+            "ar": "محل تجاري",
+            "de": "Arbeitsplatz",
+            "ru": "Место работы"
           }
         },
         "listings": [
@@ -1178,7 +1458,9 @@
             "title": {
               "tr": "Deniz manzaralı 3+1 daire",
               "en": "3+1 apartment with sea view",
-              "ar": "شقة 3+1 بإطلالة بحرية"
+              "ar": "شقة 3+1 بإطلالة بحرية",
+              "de": "3+1-Wohnung mit Meerblick",
+              "ru": "Квартира 3+1 с видом на море"
             },
             "deal": "sale",
             "type": "daire",
@@ -1189,12 +1471,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Kadıköy",
               "en": "Kadikoy",
-              "ar": "قاضي كوي"
+              "ar": "قاضي كوي",
+              "de": "Kadıköy",
+              "ru": "Кадыкёй"
             },
             "img": [],
             "permitNo": "DEMO-34-0001",
@@ -1203,7 +1489,9 @@
             "badge": {
               "tr": "Yeni",
               "en": "New",
-              "ar": "جديد"
+              "ar": "جديد",
+              "de": "Neu",
+              "ru": "Новинка"
             }
           },
           {
@@ -1211,7 +1499,9 @@
             "title": {
               "tr": "Bahçe katı 2+1 kiralık daire",
               "en": "2+1 garden-floor apartment for rent",
-              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار",
+              "de": "2+1-Mietwohnung im Gartengeschoss",
+              "ru": "Квартира 2+1 в аренду на садовом этаже"
             },
             "deal": "rent",
             "type": "daire",
@@ -1222,12 +1512,16 @@
             "city": {
               "tr": "Ankara",
               "en": "Ankara",
-              "ar": "أنقرة"
+              "ar": "أنقرة",
+              "de": "Ankara",
+              "ru": "Ankara"
             },
             "district": {
               "tr": "Çankaya",
               "en": "Cankaya",
-              "ar": "تشانكايا"
+              "ar": "تشانكايا",
+              "de": "Çankaya",
+              "ru": "Чанкая"
             },
             "img": [],
             "permitNo": "DEMO-06-0002",
@@ -1239,7 +1533,9 @@
             "title": {
               "tr": "Havuzlu müstakil villa",
               "en": "Detached villa with pool",
-              "ar": "فيلا مستقلة مع مسبح"
+              "ar": "فيلا مستقلة مع مسبح",
+              "de": "Freistehende Villa mit Pool",
+              "ru": "Отдельно стоящая вилла с бассейном"
             },
             "deal": "sale",
             "type": "villa",
@@ -1250,12 +1546,16 @@
             "city": {
               "tr": "Muğla",
               "en": "Mugla",
-              "ar": "موغلا"
+              "ar": "موغلا",
+              "de": "Muğla",
+              "ru": "Мугла"
             },
             "district": {
               "tr": "Bodrum",
               "en": "Bodrum",
-              "ar": "بودروم"
+              "ar": "بودروم",
+              "de": "Bodrum",
+              "ru": "Bodrum"
             },
             "img": [],
             "permitNo": "DEMO-48-0003",
@@ -1267,7 +1567,9 @@
             "title": {
               "tr": "Eşyalı 1+1 kiralık daire",
               "en": "Furnished 1+1 apartment for rent",
-              "ar": "شقة 1+1 مفروشة للإيجار"
+              "ar": "شقة 1+1 مفروشة للإيجار",
+              "de": "Möblierte 1+1-Wohnung zur Miete",
+              "ru": "Меблированная квартира 1+1 в аренду"
             },
             "deal": "rent",
             "type": "daire",
@@ -1278,12 +1580,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Karşıyaka",
               "en": "Karsiyaka",
-              "ar": "قارشيياكا"
+              "ar": "قارشيياكا",
+              "de": "Karşıyaka",
+              "ru": "Каршияка"
             },
             "img": [],
             "permitNo": "DEMO-35-0004",
@@ -1295,7 +1601,9 @@
             "title": {
               "tr": "İmarlı satılık arsa",
               "en": "Zoned plot for sale",
-              "ar": "أرض مخططة للبيع"
+              "ar": "أرض مخططة للبيع",
+              "de": "Baugrundstück mit Bebauungsplan zu verkaufen",
+              "ru": "Участок под застройку на продажу"
             },
             "deal": "sale",
             "type": "arsa",
@@ -1306,12 +1614,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Urla",
               "en": "Urla",
-              "ar": "أورلا"
+              "ar": "أورلا",
+              "de": "Urla",
+              "ru": "Urla"
             },
             "img": [],
             "permitNo": "DEMO-35-0005",
@@ -1323,7 +1635,9 @@
             "title": {
               "tr": "Cadde üstü kiralık dükkân",
               "en": "Street-front shop for rent",
-              "ar": "محل على الشارع الرئيسي للإيجار"
+              "ar": "محل على الشارع الرئيسي للإيجار",
+              "de": "Ladenlokal an der Hauptstraße zu vermieten",
+              "ru": "Магазин на главной улице в аренду"
             },
             "deal": "rent",
             "type": "isyeri",
@@ -1334,12 +1648,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Şişli",
               "en": "Sisli",
-              "ar": "شيشلي"
+              "ar": "شيشلي",
+              "de": "Şişli",
+              "ru": "Шишли"
             },
             "img": [],
             "permitNo": "DEMO-34-0006",
@@ -1351,7 +1669,9 @@
             "title": {
               "tr": "Site içinde 2+1 daire",
               "en": "2+1 apartment in a gated complex",
-              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر",
+              "de": "2+1 Wohnung in einer Wohnanlage",
+              "ru": "Квартира 2+1 в закрытом комплексе"
             },
             "deal": "sale",
             "type": "daire",
@@ -1362,12 +1682,16 @@
             "city": {
               "tr": "Bursa",
               "en": "Bursa",
-              "ar": "بورصة"
+              "ar": "بورصة",
+              "de": "Bursa",
+              "ru": "Bursa"
             },
             "district": {
               "tr": "Nilüfer",
               "en": "Nilufer",
-              "ar": "نيلوفر"
+              "ar": "نيلوفر",
+              "de": "Nilüfer",
+              "ru": "Nilüfer"
             },
             "img": [],
             "permitNo": "DEMO-16-0007",
@@ -1379,7 +1703,9 @@
             "title": {
               "tr": "Merkezi konumda 1+1 rezidans",
               "en": "1+1 residence in a central location",
-              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي",
+              "de": "1+1-Residenz in zentraler Lage",
+              "ru": "Резиденция 1+1 в центральном районе"
             },
             "deal": "sale",
             "type": "rezidans",
@@ -1390,12 +1716,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Beşiktaş",
               "en": "Besiktas",
-              "ar": "بشيكتاش"
+              "ar": "بشيكتاش",
+              "de": "Beşiktaş",
+              "ru": "Бешикташ"
             },
             "img": [],
             "permitNo": "DEMO-34-0008",
@@ -1424,22 +1754,30 @@
         "text": {
           "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
           "en": "This demo was prepared by {brand} —",
-          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —",
+          "de": "Diese Demo wurde von {brand} erstellt —",
+          "ru": "Это демо подготовлено компанией {brand} —"
         },
         "ctaText": {
           "tr": "Bu temayı iste",
           "en": "Get this theme",
-          "ar": "اطلب هذا القالب"
+          "ar": "اطلب هذا القالب",
+          "de": "Dieses Thema anfordern",
+          "ru": "Заказать эту тему"
         },
         "newTabText": {
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
-          "ar": "(يفتح في علامة تبويب جديدة)"
+          "ar": "(يفتح في علامة تبويب جديدة)",
+          "de": "(öffnet in einem neuen Tab)",
+          "ru": "(открывается в новой вкладке)"
         },
         "ariaLabel": {
           "tr": "Demo bilgisi",
           "en": "Demo credit",
-          "ar": "معلومات العرض التجريبي"
+          "ar": "معلومات العرض التجريبي",
+          "de": "Demo-Hinweis",
+          "ru": "Демо-информация"
         }
       },
       "veri": {
@@ -1479,7 +1817,9 @@
         "cta_ad": {
           "tr": "Randevu al",
           "en": "Book a scan",
-          "ar": "احجز فحصًا"
+          "ar": "احجز فحصًا",
+          "de": "Termin vereinbaren",
+          "ru": "Записаться"
         },
         "cta_url": "teklif-al",
         "tel": "+90 224 041 63 00",
@@ -1502,7 +1842,9 @@
         "cta": {
           "tr": "Teklif al",
           "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "ar": "اطلب عرض سعر",
+          "de": "Angebot einholen",
+          "ru": "Получить предложение"
         }
       },
       "data": [],
@@ -1543,17 +1885,23 @@
         "ust": {
           "tr": "Görüntüleme merkezi · Nilüfer, Bursa",
           "en": "Imaging centre · Nilufer, Bursa",
-          "ar": "مركز تصوير · نيلوفر، بورصة"
+          "ar": "مركز تصوير · نيلوفر، بورصة",
+          "de": "Bildgebungszentrum · Nilüfer, Bursa",
+          "ru": "Центр визуальной диагностики · Нилюфер, Бурса"
         },
         "baslik": {
           "tr": "Tetkikinizi seçin, hazırlığınızı bilin",
           "en": "Pick your scan, know your preparation",
-          "ar": "اختر فحصك واعرف تحضيرك"
+          "ar": "اختر فحصك واعرف تحضيرك",
+          "de": "Wählen Sie Ihre Untersuchung und wissen Sie, wie Sie sich vorbereiten",
+          "ru": "Выберите обследование и узнайте, как подготовиться"
         },
         "metin": {
           "tr": "MR, tomografi, röntgen, ultrason, mamografi ve kemik yoğunluğu. Randevu sırasında tetkike göre hazırlık listesi açılır; raporunuz hekiminize iletilir. Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "MRI, CT, X-ray, ultrasound, mammography and bone density. When booking, a preparation list for your scan opens; your report is sent to your doctor. Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "الرنين المغناطيسي والأشعة المقطعية والسينية والموجات فوق الصوتية والماموغرام وكثافة العظام. عند الحجز تظهر قائمة تحضير خاصة بفحصك، ويُرسل تقريرك إلى طبيبك. المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "الرنين المغناطيسي والأشعة المقطعية والسينية والموجات فوق الصوتية والماموغرام وكثافة العظام. عند الحجز تظهر قائمة تحضير خاصة بفحصك، ويُرسل تقريرك إلى طبيبك. المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "MRT, Tomografie, Röntgen, Ultraschall, Mammografie und Knochendichte. Bei der Terminvereinbarung öffnet sich je nach Untersuchung eine Vorbereitungsliste; Ihr Befund geht an Ihren Arzt. Die Angaben dienen der allgemeinen Information; die Entscheidung über die Untersuchung und die Vorbereitungshinweise liegen bei Ihrem überweisenden Arzt und der Radiologin bzw. dem Radiologen. Teilen Sie eine mögliche Schwangerschaft unbedingt mit.",
+          "ru": "МРТ, томография, рентген, УЗИ, маммография и денситометрия. При записи открывается список подготовки в зависимости от обследования; ваше заключение передаётся врачу. Сведения носят общий информационный характер; решение об обследовании и указания по подготовке даёт направивший вас врач и врач-рентгенолог. Обязательно сообщите о возможной беременности."
         },
         "img": "/img/klinik-hekim-eli.webp",
         "img2": "",
@@ -1562,18 +1910,24 @@
         "alt": {
           "tr": "Beyaz önlüklü bir hekimin elinde stetoskop",
           "en": "A doctor in a white coat holding a stethoscope",
-          "ar": "طبيب بمعطف أبيض يحمل سماعة طبية"
+          "ar": "طبيب بمعطف أبيض يحمل سماعة طبية",
+          "de": "Stethoskop in der Hand eines Arztes im weißen Kittel",
+          "ru": "Стетоскоп в руке врача в белом халате"
         },
         "cta_ad": {
           "tr": "Randevu al",
           "en": "Book a scan",
-          "ar": "احجز فحصًا"
+          "ar": "احجز فحصًا",
+          "de": "Termin vereinbaren",
+          "ru": "Записаться"
         },
         "cta_url": "teklif-al",
         "cta2_ad": {
           "tr": "Hazırlık rehberi",
           "en": "Preparation guide",
-          "ar": "دليل التحضير"
+          "ar": "دليل التحضير",
+          "de": "Vorbereitungsleitfaden",
+          "ru": "Руководство по подготовке"
         },
         "cta2_url": "hizmetler",
         "rozet_ikon": "schedule",
@@ -1581,7 +1935,9 @@
         "rozet_metin": {
           "tr": "gün açık",
           "en": "days a week",
-          "ar": "أيام في الأسبوع"
+          "ar": "أيام في الأسبوع",
+          "de": "Tage offen",
+          "ru": "дней в неделю"
         },
         "bg": "var(--mx-site-surface, #f6f7f9)",
         "text": "var(--mx-site-text, #111318)",
@@ -1599,28 +1955,38 @@
         "eyebrow": {
           "tr": "Radyoloji",
           "en": "Radiology",
-          "ar": "الأشعة"
+          "ar": "الأشعة",
+          "de": "Radiologie",
+          "ru": "Радиология"
         },
         "title": {
           "tr": "Kesit Radyoloji",
           "en": "Kesit Radiology",
-          "ar": "كسيت للأشعة"
+          "ar": "كسيت للأشعة",
+          "de": "Schnittbild-Radiologie",
+          "ru": "Секционная радиология"
         },
         "cta1": {
           "tr": "Randevu",
           "en": "Book",
-          "ar": "احجز"
+          "ar": "احجز",
+          "de": "Termin",
+          "ru": "Запись"
         },
         "cta1_url": "teklif-al",
         "cta2": {
           "tr": "Tetkikler",
           "en": "Scans",
-          "ar": "الفحوص"
+          "ar": "الفحوص",
+          "de": "Untersuchungen",
+          "ru": "Обследования"
         },
         "scroll_label": {
           "tr": "Aşağı kaydır",
           "en": "Scroll down",
-          "ar": "انزل للأسفل"
+          "ar": "انزل للأسفل",
+          "de": "Nach unten scrollen",
+          "ru": "Прокрутите вниз"
         }
       },
       "data": [
@@ -1629,12 +1995,16 @@
           "deger": {
             "tr": "10–45 dk",
             "en": "10–45 min",
-            "ar": "10–45 دقيقة"
+            "ar": "10–45 دقيقة",
+            "de": "10–45 Min.",
+            "ru": "10–45 мин"
           },
           "metin": {
             "tr": "Tetkike göre süre",
             "en": "Time by scan",
-            "ar": "المدة حسب الفحص"
+            "ar": "المدة حسب الفحص",
+            "de": "Je nach Untersuchung",
+            "ru": "По виду обследования"
           }
         },
         {
@@ -1642,12 +2012,16 @@
           "deger": {
             "tr": "6 tetkik",
             "en": "6 scans",
-            "ar": "6 فحوص"
+            "ar": "6 فحوص",
+            "de": "6 Scans",
+            "ru": "6 сканирований"
           },
           "metin": {
             "tr": "Yazılı hazırlık notu",
             "en": "Written preparation note",
-            "ar": "ملاحظة تحضير مكتوبة"
+            "ar": "ملاحظة تحضير مكتوبة",
+            "de": "Merkblatt",
+            "ru": "Памятка по подготовке"
           }
         },
         {
@@ -1655,12 +2029,16 @@
           "deger": {
             "tr": "Hekime",
             "en": "To your doctor",
-            "ar": "إلى طبيبك"
+            "ar": "إلى طبيبك",
+            "de": "Zu Ihrem Arzt",
+            "ru": "К вашему врачу"
           },
           "metin": {
             "tr": "Rapor iletimi",
             "en": "Report delivery",
-            "ar": "إرسال التقرير"
+            "ar": "إرسال التقرير",
+            "de": "Befundversand",
+            "ru": "Отправка заключения"
           }
         }
       ],
@@ -1704,17 +2082,23 @@
         "ust": {
           "tr": "Yaklaşımımız",
           "en": "Our approach",
-          "ar": "نهجنا"
+          "ar": "نهجنا",
+          "de": "Unser Ansatz",
+          "ru": "Наш подход"
         },
         "baslik": {
           "tr": "Merceği gezdirin, ilkelerimizi görün",
           "en": "Move the lens to see our principles",
-          "ar": "حرّك العدسة لترى مبادئنا"
+          "ar": "حرّك العدسة لترى مبادئنا",
+          "de": "Bewegen Sie die Lupe und sehen Sie unsere Grundsätze",
+          "ru": "Двигайте лупу и смотрите наши принципы"
         },
         "metin": {
           "tr": "Kurgusal demo içerik.",
           "en": "Fictional demo content.",
-          "ar": "محتوى تجريبي افتراضي."
+          "ar": "محتوى تجريبي افتراضي.",
+          "de": "Fiktiver Demo-Inhalt.",
+          "ru": "Вымышленное демонстрационное содержимое."
         },
         "bg": "var(--mx-site-text, #111318)",
         "text": "var(--mx-site-bg, #ffffff)",
@@ -1731,17 +2115,23 @@
         "badge": {
           "tr": "Yaklaşımımız",
           "en": "Our approach",
-          "ar": "نهجنا"
+          "ar": "نهجنا",
+          "de": "Unser Ansatz",
+          "ru": "Наш подход"
         },
         "title": {
           "tr": "Merceği gezdirin, ilkelerimizi görün",
           "en": "Move the lens to see our principles",
-          "ar": "حرّك العدسة لترى مبادئنا"
+          "ar": "حرّك العدسة لترى مبادئنا",
+          "de": "Bewegen Sie die Lupe und sehen Sie unsere Grundsätze",
+          "ru": "Двигайте лупу и смотрите наши принципы"
         },
         "description": {
           "tr": "Kurgusal demo içerik.",
           "en": "Fictional demo content.",
-          "ar": "محتوى تجريبي افتراضي."
+          "ar": "محتوى تجريبي افتراضي.",
+          "de": "Fiktiver Demo-Inhalt.",
+          "ru": "Вымышленное демонстрационное содержимое."
         }
       },
       "data": [
@@ -1750,12 +2140,16 @@
           "baslik": {
             "tr": "Önce hazırlık",
             "en": "Preparation first",
-            "ar": "التحضير أولًا"
+            "ar": "التحضير أولًا",
+            "de": "Zuerst die Vorbereitung",
+            "ru": "Сначала подготовка"
           },
           "metin": {
             "tr": "Her tetkikin yazılı hazırlık notu randevu mesajıyla gelir.",
             "en": "Each scan’s written preparation note comes with the booking message.",
-            "ar": "تصل ملاحظة التحضير المكتوبة لكل فحص مع رسالة الحجز."
+            "ar": "تصل ملاحظة التحضير المكتوبة لكل فحص مع رسالة الحجز.",
+            "de": "Die schriftliche Vorbereitungshinweise zu jeder Untersuchung kommen mit der Terminnachricht.",
+            "ru": "Письменная памятка по подготовке к каждому обследованию приходит вместе с сообщением о записи."
           }
         },
         {
@@ -1763,12 +2157,16 @@
           "baslik": {
             "tr": "Gebelik sorusu",
             "en": "Pregnancy check",
-            "ar": "سؤال الحمل"
+            "ar": "سؤال الحمل",
+            "de": "Schwangerschaftstest",
+            "ru": "Проверка беременности"
           },
           "metin": {
             "tr": "Işın içeren her çekimden önce sorulur.",
             "en": "Asked before every scan that uses radiation.",
-            "ar": "يُطرح قبل كل فحص يستخدم الإشعاع."
+            "ar": "يُطرح قبل كل فحص يستخدم الإشعاع.",
+            "de": "Wird vor jeder Aufnahme mit Strahlung gefragt.",
+            "ru": "Спрашивается перед каждым снимком с излучением."
           }
         },
         {
@@ -1776,12 +2174,16 @@
           "baslik": {
             "tr": "Okunur rapor",
             "en": "A readable report",
-            "ar": "تقرير مفهوم"
+            "ar": "تقرير مفهوم",
+            "de": "Lesbarer Bericht",
+            "ru": "Читаемый отчёт"
           },
           "metin": {
             "tr": "Rapor sevk eden hekiminize iletilir; sonuçları hekiminizle konuşun.",
             "en": "The report goes to your referring doctor; discuss the results with them.",
-            "ar": "يُرسل التقرير إلى الطبيب المُحيل؛ ناقش النتائج معه."
+            "ar": "يُرسل التقرير إلى الطبيب المُحيل؛ ناقش النتائج معه.",
+            "de": "Der Bericht wird an Ihren überweisenden Arzt gesendet; besprechen Sie die Ergebnisse mit ihm.",
+            "ru": "Отчёт направляется вашему лечащему врачу; обсудите результаты с ним."
           }
         },
         {
@@ -1789,12 +2191,16 @@
           "baslik": {
             "tr": "Erişilebilir merkez",
             "en": "Accessible centre",
-            "ar": "مركز ميسّر"
+            "ar": "مركز ميسّر",
+            "de": "Barrierefreies Zentrum",
+            "ru": "Доступный центр"
           },
           "metin": {
             "tr": "Rampalı giriş, geniş kabin ve refakatçi alanı.",
             "en": "Step-free entry, wide changing rooms and a companion area.",
-            "ar": "مدخل بمنحدر وغرف تبديل واسعة ومنطقة للمرافق."
+            "ar": "مدخل بمنحدر وغرف تبديل واسعة ومنطقة للمرافق.",
+            "de": "Stufenfreier Eingang, breite Umkleidekabinen und Begleitbereich.",
+            "ru": "Вход без ступеней, широкие раздевалки и зона для сопровождающих."
           }
         }
       ],
@@ -1840,17 +2246,23 @@
         "ust": {
           "tr": "Uzmanlar",
           "en": "Specialists",
-          "ar": "الأخصائيون"
+          "ar": "الأخصائيون",
+          "de": "Spezialisten",
+          "ru": "Специалисты"
         },
         "baslik": {
           "tr": "Uzman ve birim arayın",
           "en": "Search specialists and units",
-          "ar": "ابحث عن الأخصائيين والوحدات"
+          "ar": "ابحث عن الأخصائيين والوحدات",
+          "de": "Fachperson und Abteilung suchen",
+          "ru": "Найдите специалиста и подразделение"
         },
         "metin": {
           "tr": "Ad, birim ya da tetkik yazın; tablo süzülür. Kurgusal profiller, portre kullanılmaz.",
           "en": "Type a name, unit or scan to filter the table. Fictional profiles; no portraits are used.",
-          "ar": "اكتب اسمًا أو وحدة أو فحصًا لتصفية الجدول. ملفات افتراضية؛ لا تُستخدم صور شخصية."
+          "ar": "اكتب اسمًا أو وحدة أو فحصًا لتصفية الجدول. ملفات افتراضية؛ لا تُستخدم صور شخصية.",
+          "de": "Geben Sie einen Namen, eine Einheit oder eine Untersuchung ein; die Tabelle wird gefiltert. Fiktive Profile, keine Porträts werden verwendet.",
+          "ru": "Введите имя, единицу или анализ для фильтрации таблицы. Фиктивные профили, портреты не используются."
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "text": "var(--mx-site-text, #111318)",
@@ -1865,24 +2277,32 @@
         "aramaEtiket": {
           "tr": "Uzman, birim ya da tetkik",
           "en": "Specialist, unit or scan",
-          "ar": "أخصائي أو وحدة أو فحص"
+          "ar": "أخصائي أو وحدة أو فحص",
+          "de": "Facharzt, Abteilung oder Untersuchung",
+          "ru": "Специалист, отделение или обследование"
         },
         "bgcolor": "var(--mx-site-bg, #ffffff)",
         "color": "var(--mx-site-text, #111318)",
         "badge": {
           "tr": "Uzmanlar",
           "en": "Specialists",
-          "ar": "الأخصائيون"
+          "ar": "الأخصائيون",
+          "de": "Spezialisten",
+          "ru": "Специалисты"
         },
         "title": {
           "tr": "Uzman ve birim arayın",
           "en": "Search specialists and units",
-          "ar": "ابحث عن الأخصائيين والوحدات"
+          "ar": "ابحث عن الأخصائيين والوحدات",
+          "de": "Fachperson und Abteilung suchen",
+          "ru": "Найдите специалиста и подразделение"
         },
         "description": {
           "tr": "Kurgusal demo içerik.",
           "en": "Fictional demo content.",
-          "ar": "محتوى تجريبي افتراضي."
+          "ar": "محتوى تجريبي افتراضي.",
+          "de": "Fiktiver Demo-Inhalt.",
+          "ru": "Вымышленное демонстрационное содержимое."
         }
       },
       "data": [
@@ -1891,28 +2311,38 @@
           "unvan": {
             "tr": "Radyoloji uzmanı",
             "en": "Radiologist",
-            "ar": "أخصائي أشعة"
+            "ar": "أخصائي أشعة",
+            "de": "Facharzt für Radiologie",
+            "ru": "Врач-рентгенолог"
           },
           "bolum": {
             "tr": "MR ve tomografi",
             "en": "MRI and CT",
-            "ar": "الرنين والأشعة المقطعية"
+            "ar": "الرنين والأشعة المقطعية",
+            "de": "MRT und CT",
+            "ru": "МРТ и КТ"
           },
           "metin": {
             "tr": "Nöroradyoloji ve kas-iskelet görüntüleme (kurgusal profil).",
             "en": "Neuroradiology and musculoskeletal imaging (fictional profile).",
-            "ar": "الأشعة العصبية وتصوير الجهاز العضلي الهيكلي (ملف افتراضي)."
+            "ar": "الأشعة العصبية وتصوير الجهاز العضلي الهيكلي (ملف افتراضي).",
+            "de": "Neuroradiologie und muskuloskelettale Bildgebung (fiktives Profil).",
+            "ru": "Нейрорадиология и визуализация опорно-двигательного аппарата (вымышленный профиль)."
           },
           "anahtar": [
             {
               "tr": "MR",
               "en": "MRI",
-              "ar": "رنين"
+              "ar": "رنين",
+              "de": "MRT",
+              "ru": "МРТ"
             },
             {
               "tr": "tomografi",
               "en": "CT",
-              "ar": "مقطعية"
+              "ar": "مقطعية",
+              "de": "Tomografie",
+              "ru": "томография"
             }
           ]
         },
@@ -1921,28 +2351,38 @@
           "unvan": {
             "tr": "Radyoloji uzmanı",
             "en": "Radiologist",
-            "ar": "أخصائية أشعة"
+            "ar": "أخصائية أشعة",
+            "de": "Facharzt für Radiologie",
+            "ru": "Врач-рентгенолог"
           },
           "bolum": {
             "tr": "Meme görüntüleme",
             "en": "Breast imaging",
-            "ar": "تصوير الثدي"
+            "ar": "تصوير الثدي",
+            "de": "Brustbildgebung",
+            "ru": "Визуализация молочной железы"
           },
           "metin": {
             "tr": "Mamografi ve meme ultrasonu (kurgusal profil).",
             "en": "Mammography and breast ultrasound (fictional profile).",
-            "ar": "الماموغرام والموجات فوق الصوتية للثدي (ملف افتراضي)."
+            "ar": "الماموغرام والموجات فوق الصوتية للثدي (ملف افتراضي).",
+            "de": "Mammographie und Brustultraschall (fiktives Profil).",
+            "ru": "Маммография и УЗИ молочных желез (вымышленный профиль)."
           },
           "anahtar": [
             {
               "tr": "mamografi",
               "en": "mammography",
-              "ar": "ماموغرام"
+              "ar": "ماموغرام",
+              "de": "Mammographie",
+              "ru": "маммография"
             },
             {
               "tr": "ultrason",
               "en": "ultrasound",
-              "ar": "موجات فوق صوتية"
+              "ar": "موجات فوق صوتية",
+              "de": "Ultraschall",
+              "ru": "Ультразвук"
             }
           ]
         },
@@ -1951,28 +2391,38 @@
           "unvan": {
             "tr": "Radyoloji uzmanı",
             "en": "Radiologist",
-            "ar": "أخصائي أشعة"
+            "ar": "أخصائي أشعة",
+            "de": "Facharzt für Radiologie",
+            "ru": "Врач-рентгенолог"
           },
           "bolum": {
             "tr": "Ultrason",
             "en": "Ultrasound",
-            "ar": "الموجات فوق الصوتية"
+            "ar": "الموجات فوق الصوتية",
+            "de": "Ultraschall",
+            "ru": "УЗИ"
           },
           "metin": {
             "tr": "Karın ve damar ultrasonu (kurgusal profil).",
             "en": "Abdominal and vascular ultrasound (fictional profile).",
-            "ar": "الموجات فوق الصوتية للبطن والأوعية (ملف افتراضي)."
+            "ar": "الموجات فوق الصوتية للبطن والأوعية (ملف افتراضي).",
+            "de": "Bauch- und Gefäßultraschall (fiktives Profil).",
+            "ru": "УЗИ брюшной полости и сосудов (вымышленный профиль)."
           },
           "anahtar": [
             {
               "tr": "ultrason",
               "en": "ultrasound",
-              "ar": "موجات فوق صوتية"
+              "ar": "موجات فوق صوتية",
+              "de": "Ultraschall",
+              "ru": "Ультразвук"
             },
             {
               "tr": "doppler",
               "en": "Doppler",
-              "ar": "دوبلر"
+              "ar": "دوبلر",
+              "de": "Doppler",
+              "ru": "допплер"
             }
           ]
         },
@@ -1981,28 +2431,38 @@
           "unvan": {
             "tr": "Radyoloji teknikeri",
             "en": "Radiographer",
-            "ar": "فنية أشعة"
+            "ar": "فنية أشعة",
+            "de": "Radiologietechniker",
+            "ru": "Рентгенолаборант"
           },
           "bolum": {
             "tr": "Röntgen ve DEXA",
             "en": "X-ray and DEXA",
-            "ar": "الأشعة السينية وDEXA"
+            "ar": "الأشعة السينية وDEXA",
+            "de": "Röntgen und DEXA",
+            "ru": "Рентген и DEXA"
           },
           "metin": {
             "tr": "Çekim ve hazırlık bilgilendirmesi (kurgusal profil).",
             "en": "Imaging and preparation guidance (fictional profile).",
-            "ar": "التصوير والإرشاد للتحضير (ملف افتراضي)."
+            "ar": "التصوير والإرشاد للتحضير (ملف افتراضي).",
+            "de": "Informationen zu Bildgebung und Vorbereitung (fiktives Profil).",
+            "ru": "Информация о визуализации и подготовке (вымышленный профиль)."
           },
           "anahtar": [
             {
               "tr": "röntgen",
               "en": "X-ray",
-              "ar": "أشعة سينية"
+              "ar": "أشعة سينية",
+              "de": "Röntgen",
+              "ru": "рентген"
             },
             {
               "tr": "kemik yoğunluğu",
               "en": "bone density",
-              "ar": "كثافة العظام"
+              "ar": "كثافة العظام",
+              "de": "Knochendichte",
+              "ru": "Плотность костей"
             }
           ]
         },
@@ -2011,23 +2471,31 @@
           "unvan": {
             "tr": "Radyoloji teknikeri",
             "en": "Radiographer",
-            "ar": "فني أشعة"
+            "ar": "فني أشعة",
+            "de": "Radiologietechniker",
+            "ru": "Рентгенолаборант"
           },
           "bolum": {
             "tr": "MR ve tomografi",
             "en": "MRI and CT",
-            "ar": "الرنين والأشعة المقطعية"
+            "ar": "الرنين والأشعة المقطعية",
+            "de": "MRT und CT",
+            "ru": "МРТ и КТ"
           },
           "metin": {
             "tr": "MR güvenlik formu ve kabin hazırlığı (kurgusal profil).",
             "en": "MRI safety form and changing-room preparation (fictional profile).",
-            "ar": "استمارة سلامة الرنين وتجهيز غرفة التبديل (ملف افتراضي)."
+            "ar": "استمارة سلامة الرنين وتجهيز غرفة التبديل (ملف افتراضي).",
+            "de": "MRT-Sicherheitsbogen und Kabinenvorbereitung (fiktives Profil).",
+            "ru": "Анкета безопасности для МРТ и подготовка кабины (вымышленный профиль)."
           },
           "anahtar": [
             {
               "tr": "MR güvenliği",
               "en": "MRI safety",
-              "ar": "سلامة الرنين"
+              "ar": "سلامة الرنين",
+              "de": "MRT-Sicherheit",
+              "ru": "Безопасность при МРТ"
             }
           ]
         },
@@ -2036,28 +2504,38 @@
           "unvan": {
             "tr": "Hasta kabul sorumlusu",
             "en": "Patient reception lead",
-            "ar": "مسؤولة الاستقبال"
+            "ar": "مسؤولة الاستقبال",
+            "de": "Verantwortliche für die Patientenaufnahme",
+            "ru": "Ответственный за приём пациентов"
           },
           "bolum": {
             "tr": "Randevu",
             "en": "Booking",
-            "ar": "الحجز"
+            "ar": "الحجز",
+            "de": "Termin",
+            "ru": "Запись"
           },
           "metin": {
             "tr": "Randevu, sevk belgesi ve rapor teslimi (kurgusal profil).",
             "en": "Bookings, referrals and report delivery (fictional profile).",
-            "ar": "المواعيد وأوراق الإحالة وتسليم التقارير (ملف افتراضي)."
+            "ar": "المواعيد وأوراق الإحالة وتسليم التقارير (ملف افتراضي).",
+            "de": "Termin, Überweisung und Befundübergabe (fiktives Profil).",
+            "ru": "Запись, направление и выдача заключения (вымышленный профиль)."
           },
           "anahtar": [
             {
               "tr": "randevu",
               "en": "booking",
-              "ar": "حجز"
+              "ar": "حجز",
+              "de": "Termin",
+              "ru": "запись"
             },
             {
               "tr": "rapor",
               "en": "report",
-              "ar": "تقرير"
+              "ar": "تقرير",
+              "de": "Bericht",
+              "ru": "отчет"
             }
           ]
         }
@@ -2106,24 +2584,32 @@
         "ust": {
           "tr": "Sorular",
           "en": "Questions",
-          "ar": "الأسئلة"
+          "ar": "الأسئلة",
+          "de": "FAQ",
+          "ru": "FAQ"
         },
         "baslik": {
           "tr": "Tetkik öncesi sorulanlar",
           "en": "Questions before a scan",
-          "ar": "أسئلة قبل الفحص"
+          "ar": "أسئلة قبل الفحص",
+          "de": "Fragen vor der Untersuchung",
+          "ru": "Вопросы перед обследованием"
         },
         "metin": {
           "tr": "Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "Die Angaben dienen der allgemeinen Information; die Entscheidung über die Untersuchung und die Vorbereitungshinweise liegen bei Ihrem überweisenden Arzt und der Fachärztin bzw. dem Facharzt für Radiologie. Teilen Sie eine mögliche Schwangerschaft unbedingt mit.",
+          "ru": "Сведения носят общий информационный характер; решение об обследовании и инструкции по подготовке остаются за направившим вас врачом и врачом-радиологом. Обязательно сообщите о возможной беременности."
         },
         "tekAcik": false,
         "ilkAcik": "",
         "cta_ad": {
           "tr": "Birimi arayın",
           "en": "Call a unit",
-          "ar": "اتصل بالوحدة"
+          "ar": "اتصل بالوحدة",
+          "de": "Einheit anrufen",
+          "ru": "Позвонить в подразделение"
         },
         "cta_url": "iletisim",
         "bg": "var(--mx-site-bg, #ffffff)",
@@ -2141,17 +2627,23 @@
         "badge": {
           "tr": "Sorular",
           "en": "Questions",
-          "ar": "الأسئلة"
+          "ar": "الأسئلة",
+          "de": "FAQ",
+          "ru": "FAQ"
         },
         "title": {
           "tr": "Tetkik öncesi sorulanlar",
           "en": "Questions before a scan",
-          "ar": "أسئلة قبل الفحص"
+          "ar": "أسئلة قبل الفحص",
+          "de": "Fragen vor der Untersuchung",
+          "ru": "Вопросы перед обследованием"
         },
         "description": {
           "tr": "Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "Die Angaben dienen der allgemeinen Information; die Entscheidung über die Untersuchung und die Vorbereitungshinweise liegen bei Ihrem überweisenden Arzt und der Fachärztin bzw. dem Facharzt für Radiologie. Teilen Sie eine mögliche Schwangerschaft unbedingt mit.",
+          "ru": "Сведения носят общий информационный характер; решение об обследовании и инструкции по подготовке остаются за направившим вас врачом и врачом-радиологом. Обязательно сообщите о возможной беременности."
         }
       },
       "data": [
@@ -2159,102 +2651,138 @@
           "kategori": {
             "tr": "Randevu",
             "en": "Booking",
-            "ar": "الحجز"
+            "ar": "الحجز",
+            "de": "Termin",
+            "ru": "Запись"
           },
           "soru": {
             "tr": "Sevk belgesi gerekli mi?",
             "en": "Do I need a referral?",
-            "ar": "هل أحتاج إلى إحالة؟"
+            "ar": "هل أحتاج إلى إحالة؟",
+            "de": "Ist eine Überweisung erforderlich?",
+            "ru": "Нужно ли направление?"
           },
           "cevap": {
             "tr": "Tetkikler hekim istemiyle yapılır; istem belgenizi ya da e-reçete numaranızı getirin.",
             "en": "Scans are done on a doctor’s request; bring your request form or e-prescription number.",
-            "ar": "تُجرى الفحوص بطلب من الطبيب؛ أحضر ورقة الطلب أو رقم الوصفة الإلكترونية."
+            "ar": "تُجرى الفحوص بطلب من الطبيب؛ أحضر ورقة الطلب أو رقم الوصفة الإلكترونية.",
+            "de": "Die Untersuchungen erfolgen auf ärztliche Anordnung; bringen Sie Ihre Überweisung oder Ihre E-Rezept-Nummer mit.",
+            "ru": "Обследования проводятся по назначению врача; принесите направление или номер электронного рецепта."
           }
         },
         {
           "kategori": {
             "tr": "Randevu",
             "en": "Booking",
-            "ar": "الحجز"
+            "ar": "الحجز",
+            "de": "Termin",
+            "ru": "Запись"
           },
           "soru": {
             "tr": "Ne kadar erken gelmeliyim?",
             "en": "How early should I arrive?",
-            "ar": "كم يجب أن أحضر مبكرًا؟"
+            "ar": "كم يجب أن أحضر مبكرًا؟",
+            "de": "Wie früh sollte ich kommen?",
+            "ru": "Насколько заранее мне нужно прийти?"
           },
           "cevap": {
             "tr": "Randevudan 15 dakika önce; MR’da güvenlik formu için 30 dakika önce.",
             "en": "15 minutes before; 30 minutes before for an MRI to fill in the safety form.",
-            "ar": "قبل الموعد بخمس عشرة دقيقة؛ وقبل ثلاثين دقيقة للرنين لملء استمارة السلامة."
+            "ar": "قبل الموعد بخمس عشرة دقيقة؛ وقبل ثلاثين دقيقة للرنين لملء استمارة السلامة.",
+            "de": "15 Minuten vor dem Termin; bei MRT 30 Minuten vorher für das Sicherheitsformular.",
+            "ru": "За 15 минут до приёма; для МРТ – за 30 минут для заполнения формы безопасности."
           }
         },
         {
           "kategori": {
             "tr": "Hazırlık",
             "en": "Preparation",
-            "ar": "التحضير"
+            "ar": "التحضير",
+            "de": "Vorbereitung",
+            "ru": "Подготовка"
           },
           "soru": {
             "tr": "İlaçlarımı almaya devam edebilir miyim?",
             "en": "Can I keep taking my medicines?",
-            "ar": "هل يمكنني الاستمرار في تناول أدويتي؟"
+            "ar": "هل يمكنني الاستمرار في تناول أدويتي؟",
+            "de": "Kann ich meine Medikamente weiter einnehmen?",
+            "ru": "Можно ли продолжать принимать мои лекарства?"
           },
           "cevap": {
             "tr": "Çoğu durumda evet; kan sulandırıcı ya da şeker ilacı kullanıyorsanız hekiminize danışın ve randevuda bildirin.",
             "en": "In most cases yes; if you take blood thinners or diabetes medicine, ask your doctor and tell us when booking.",
-            "ar": "في معظم الحالات نعم؛ إذا كنت تتناول مميعات الدم أو أدوية السكري فاستشر طبيبك وأخبرنا عند الحجز."
+            "ar": "في معظم الحالات نعم؛ إذا كنت تتناول مميعات الدم أو أدوية السكري فاستشر طبيبك وأخبرنا عند الحجز.",
+            "de": "In den meisten Fällen ja; wenn Sie Blutverdünner oder Diabetes-Medikamente einnehmen, konsultieren Sie Ihren Arzt und teilen Sie uns dies bei der Buchung mit.",
+            "ru": "В большинстве случаев да; если вы принимаете разжижающие кровь препараты или лекарства от диабета, проконсультируйтесь с врачом и сообщите об этом при записи."
           }
         },
         {
           "kategori": {
             "tr": "Hazırlık",
             "en": "Preparation",
-            "ar": "التحضير"
+            "ar": "التحضير",
+            "de": "Vorbereitung",
+            "ru": "Подготовка"
           },
           "soru": {
             "tr": "Kontrast madde alerjim olabilir mi?",
             "en": "Could I be allergic to contrast?",
-            "ar": "هل يمكن أن تكون لدي حساسية من مادة التباين؟"
+            "ar": "هل يمكن أن تكون لدي حساسية من مادة التباين؟",
+            "de": "Könnte ich allergisch auf Kontrastmittel reagieren?",
+            "ru": "Возможна ли у меня аллергия на контрастное вещество?"
           },
           "cevap": {
             "tr": "Daha önce reaksiyon yaşadıysanız ya da astımınız varsa randevuda belirtin; uzman değerlendirir.",
             "en": "If you have reacted before or have asthma, mention it when booking; the radiologist will assess it.",
-            "ar": "إذا حدث لك تفاعل سابقًا أو كان لديك ربو فاذكر ذلك عند الحجز؛ وسيقيّم الأخصائي ذلك."
+            "ar": "إذا حدث لك تفاعل سابقًا أو كان لديك ربو فاذكر ذلك عند الحجز؛ وسيقيّم الأخصائي ذلك.",
+            "de": "Wenn Sie schon einmal eine Reaktion hatten oder Asthma haben, geben Sie es beim Termin an; die Fachkraft beurteilt es.",
+            "ru": "Если у вас уже были реакции или есть астма, сообщите об этом при записи; специалист оценит ситуацию."
           }
         },
         {
           "kategori": {
             "tr": "Güvenlik",
             "en": "Safety",
-            "ar": "السلامة"
+            "ar": "السلامة",
+            "de": "Sicherheit",
+            "ru": "Безопасность"
           },
           "soru": {
             "tr": "Gebelik olasılığı varsa ne olur?",
             "en": "What if I might be pregnant?",
-            "ar": "ماذا لو كان هناك احتمال حمل؟"
+            "ar": "ماذا لو كان هناك احتمال حمل؟",
+            "de": "Was passiert, wenn eine Schwangerschaft möglich ist?",
+            "ru": "Что делать, если возможна беременность?"
           },
           "cevap": {
             "tr": "Çekimden önce mutlaka söyleyin; ışın içeren tetkik hekimle yeniden değerlendirilir.",
             "en": "Always tell us before the scan; a scan with radiation is reconsidered with your doctor.",
-            "ar": "أخبرينا دائمًا قبل الفحص؛ ويُعاد تقييم الفحص الذي يستخدم الإشعاع مع الطبيب."
+            "ar": "أخبرينا دائمًا قبل الفحص؛ ويُعاد تقييم الفحص الذي يستخدم الإشعاع مع الطبيب.",
+            "de": "Sagen Sie es unbedingt vor der Aufnahme; Untersuchungen mit Strahlung werden mit dem Arzt neu bewertet.",
+            "ru": "Обязательно сообщите перед съёмкой; обследования с излучением переоцениваются вместе с врачом."
           }
         },
         {
           "kategori": {
             "tr": "Sonuç",
             "en": "Results",
-            "ar": "النتائج"
+            "ar": "النتائج",
+            "de": "Ergebnis",
+            "ru": "Результат"
           },
           "soru": {
             "tr": "Raporum ne zaman hazır olur?",
             "en": "When is my report ready?",
-            "ar": "متى يكون تقريري جاهزًا؟"
+            "ar": "متى يكون تقريري جاهزًا؟",
+            "de": "Wann ist mein Bericht fertig?",
+            "ru": "Когда будет готов мой отчёт?"
           },
           "cevap": {
             "tr": "Çoğu tetkikte 1–2 iş günü; rapor hekiminize iletilir ve size SMS ile bildirilir (kurgusal süre).",
             "en": "For most scans 1–2 business days; the report is sent to your doctor and you get a text message (fictional timing).",
-            "ar": "لمعظم الفحوص خلال يوم إلى يومي عمل؛ يُرسل التقرير إلى طبيبك وتصلك رسالة نصية (مدة افتراضية)."
+            "ar": "لمعظم الفحوص خلال يوم إلى يومي عمل؛ يُرسل التقرير إلى طبيبك وتصلك رسالة نصية (مدة افتراضية).",
+            "de": "Bei den meisten Untersuchungen 1–2 Werktage; der Befund geht an Ihren Arzt und Sie werden per SMS benachrichtigt (fiktive Dauer).",
+            "ru": "При большинстве обследований 1–2 рабочих дня; заключение передаётся вашему врачу, а вам приходит SMS (условный срок)."
           }
         }
       ],
@@ -2298,22 +2826,30 @@
         "ust": {
           "tr": "Birimler",
           "en": "Units",
-          "ar": "الوحدات"
+          "ar": "الوحدات",
+          "de": "Einheiten",
+          "ru": "Отделения"
         },
         "baslik": {
           "tr": "Birim ve dahili rehberi",
           "en": "Unit and extension directory",
-          "ar": "دليل الوحدات والتحويلات"
+          "ar": "دليل الوحدات والتحويلات",
+          "de": "Einheiten- und Durchwahlverzeichnis",
+          "ru": "Справочник по квартирам и внутренним номерам"
         },
         "metin": {
           "tr": "Harfe dokunun, birimi bulun; numarayı tek dokunuşla kopyalayın. Santral: +90 224 041 63 00. Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "Tap a letter to find a unit and copy its number with one tap. Switchboard: +90 224 041 63 00. Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "المس حرفًا لتجد الوحدة وانسخ رقمها بلمسة واحدة. المقسم: +90 224 041 63 00. المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "المس حرفًا لتجد الوحدة وانسخ رقمها بلمسة واحدة. المقسم: +90 224 041 63 00. المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "Tippen Sie auf einen Buchstaben, um die Abteilung zu finden, und kopieren Sie die Nummer mit einem Tipp. Zentrale: +90 224 041 63 00. Die Informationen dienen der allgemeinen Aufklärung; die Entscheidung über die Untersuchung und die Vorbereitungsanweisungen liegen bei Ihrem überweisenden Arzt und dem Radiologen. Informieren Sie uns unbedingt, wenn eine Schwangerschaft möglich ist.",
+          "ru": "Нажмите на букву, чтобы найти отделение, и скопируйте номер одним нажатием. АТС: +90 224 041 63 00. Информация носит общий характер; решение о проведении исследования и указания по подготовке принадлежат вашему лечащему врачу и радиологу. Обязательно сообщите нам, если возможна беременность."
         },
         "adres": {
           "tr": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (kurgusal adres)",
           "en": "117 Mudanya Road, Fethiye, Nilufer, Bursa (fictional address)",
-          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)"
+          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)",
+          "de": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (fiktive Adresse)",
+          "ru": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (вымышленный адрес)"
         },
         "telefon": "+90 224 041 63 00",
         "eposta": "randevu@kesitradyoloji.example",
@@ -2321,14 +2857,18 @@
         "saat": {
           "tr": "Pzt–Cuma 08:00 – 20:00 · Cumartesi 09:00 – 15:00",
           "en": "Mon–Fri 08:00 – 20:00 · Sat 09:00 – 15:00",
-          "ar": "الاثنين–الجمعة 08:00 – 20:00 · السبت 09:00 – 15:00"
+          "ar": "الاثنين–الجمعة 08:00 – 20:00 · السبت 09:00 – 15:00",
+          "de": "Mo–Fr 08:00 – 20:00 · Samstag 09:00 – 15:00",
+          "ru": "Пн–Пт 08:00 – 20:00 · Суббота 09:00 – 15:00"
         },
         "haritaUrl": "",
         "haritaGomme": "",
         "waMesaj": {
           "tr": "Merhaba Kesit, bir sorum var.",
           "en": "Hello Kesit, I have a question.",
-          "ar": "مرحبًا كسيت، لدي سؤال."
+          "ar": "مرحبًا كسيت، لدي سؤال.",
+          "de": "Hallo Kesit, ich habe eine Frage.",
+          "ru": "Привет, Кесит, у меня есть вопрос."
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "text": "var(--mx-site-text, #111318)",
@@ -2346,40 +2886,54 @@
         "address": {
           "tr": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (kurgusal adres)",
           "en": "117 Mudanya Road, Fethiye, Nilufer, Bursa (fictional address)",
-          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)"
+          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)",
+          "de": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (fiktive Adresse)",
+          "ru": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (вымышленный адрес)"
         },
         "phone": "+90 224 041 63 00",
         "email": "randevu@kesitradyoloji.example",
         "hours": {
           "tr": "Pzt–Cuma 08:00 – 20:00 · Cumartesi 09:00 – 15:00",
           "en": "Mon–Fri 08:00 – 20:00 · Sat 09:00 – 15:00",
-          "ar": "الاثنين–الجمعة 08:00 – 20:00 · السبت 09:00 – 15:00"
+          "ar": "الاثنين–الجمعة 08:00 – 20:00 · السبت 09:00 – 15:00",
+          "de": "Mo–Fr 08:00 – 20:00 · Samstag 09:00 – 15:00",
+          "ru": "Пн–Пт 08:00 – 20:00 · Суббота 09:00 – 15:00"
         },
         "social": [],
         "title": {
           "tr": "Birim ve dahili rehberi",
           "en": "Unit and extension directory",
-          "ar": "دليل الوحدات والتحويلات"
+          "ar": "دليل الوحدات والتحويلات",
+          "de": "Einheiten- und Durchwahlverzeichnis",
+          "ru": "Справочник по квартирам и внутренним номерам"
         },
         "description": {
           "tr": "Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "Die Angaben dienen der allgemeinen Information; die Entscheidung über die Untersuchung und die Vorbereitungshinweise liegen bei Ihrem überweisenden Arzt und der Fachärztin bzw. dem Facharzt für Radiologie. Teilen Sie eine mögliche Schwangerschaft unbedingt mit.",
+          "ru": "Сведения носят общий информационный характер; решение об обследовании и инструкции по подготовке остаются за направившим вас врачом и врачом-радиологом. Обязательно сообщите о возможной беременности."
         },
         "panelTitle": {
           "tr": "Kesit Radyoloji",
           "en": "Kesit Radyoloji",
-          "ar": "Kesit Radyoloji"
+          "ar": "Kesit Radyoloji",
+          "de": "Schnittbild-Radiologie",
+          "ru": "Секционная радиология"
         },
         "panelText": {
           "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "ar": "الصور تمثيلية وهذا عرض تجريبي.",
+          "de": "Die Bilder sind symbolisch; dies ist eine Einrichtungs-Demo.",
+          "ru": "Изображения условные; это демонстрация установки."
         },
         "formTitle": {
           "tr": "Teklif formu",
           "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "ar": "نموذج الطلب",
+          "de": "Angebotsformular",
+          "ru": "Форма запроса предложения"
         },
         "subjects": [
           {
@@ -2387,7 +2941,9 @@
             "name": {
               "tr": "Randevu",
               "en": "Booking",
-              "ar": "الحجز"
+              "ar": "الحجز",
+              "de": "Termin",
+              "ru": "Запись"
             }
           },
           {
@@ -2395,7 +2951,9 @@
             "name": {
               "tr": "Hazırlık sorusu",
               "en": "Preparation question",
-              "ar": "سؤال عن التحضير"
+              "ar": "سؤال عن التحضير",
+              "de": "Frage zur Vorbereitung",
+              "ru": "Вопрос о подготовке"
             }
           },
           {
@@ -2403,7 +2961,9 @@
             "name": {
               "tr": "Rapor ve görüntü",
               "en": "Report and images",
-              "ar": "التقرير والصور"
+              "ar": "التقرير والصور",
+              "de": "Bericht und Bilder",
+              "ru": "Отчет и изображения"
             }
           },
           {
@@ -2411,19 +2971,25 @@
             "name": {
               "tr": "Diğer",
               "en": "Other",
-              "ar": "أخرى"
+              "ar": "أخرى",
+              "de": "Sonstiges",
+              "ru": "Другое"
             }
           }
         ],
         "kvkkText": {
           "tr": "Kişisel verilerimin bu talebin yanıtlanması amacıyla işlenmesine ilişkin aydınlatma metnini okudum.",
           "en": "I have read the privacy notice on how my personal data is processed to answer this request.",
-          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب."
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب.",
+          "de": "Ich habe die Datenschutzerklärung zur Verarbeitung meiner personenbezogenen Daten zur Beantwortung dieser Anfrage gelesen.",
+          "ru": "Я ознакомился(лась) с уведомлением о конфиденциальности об обработке моих персональных данных для ответа на этот запрос."
         },
         "kvkkLinkText": {
           "tr": "Aydınlatma metni",
           "en": "Privacy notice",
-          "ar": "إشعار الخصوصية"
+          "ar": "إشعار الخصوصية",
+          "de": "Datenschutzhinweis",
+          "ru": "Информация об обработке данных"
         },
         "kvkkHref": "kisiselveriler"
       },
@@ -2433,7 +2999,9 @@
           "baslik": {
             "tr": "Randevu masası",
             "en": "Booking desk",
-            "ar": "مكتب الحجز"
+            "ar": "مكتب الحجز",
+            "de": "Terminschalter",
+            "ru": "Стойка записи"
           },
           "deger": "+90 224 041 63 00 · 101"
         },
@@ -2442,7 +3010,9 @@
           "baslik": {
             "tr": "MR birimi",
             "en": "MRI unit",
-            "ar": "وحدة الرنين المغناطيسي"
+            "ar": "وحدة الرنين المغناطيسي",
+            "de": "MRT-Abteilung",
+            "ru": "Отделение МРТ"
           },
           "deger": "+90 224 041 63 00 · 210"
         },
@@ -2451,7 +3021,9 @@
           "baslik": {
             "tr": "Tomografi birimi",
             "en": "CT unit",
-            "ar": "وحدة الأشعة المقطعية"
+            "ar": "وحدة الأشعة المقطعية",
+            "de": "CT-Abteilung",
+            "ru": "Отделение томографии"
           },
           "deger": "+90 224 041 63 00 · 220"
         },
@@ -2460,7 +3032,9 @@
           "baslik": {
             "tr": "Ultrason birimi",
             "en": "Ultrasound unit",
-            "ar": "وحدة الموجات فوق الصوتية"
+            "ar": "وحدة الموجات فوق الصوتية",
+            "de": "Ultraschallabteilung",
+            "ru": "Отделение УЗИ"
           },
           "deger": "+90 224 041 63 00 · 230"
         },
@@ -2469,7 +3043,9 @@
           "baslik": {
             "tr": "Mamografi birimi",
             "en": "Mammography unit",
-            "ar": "وحدة الماموغرام"
+            "ar": "وحدة الماموغرام",
+            "de": "Mammografie-Abteilung",
+            "ru": "Отделение маммографии"
           },
           "deger": "+90 224 041 63 00 · 240"
         },
@@ -2478,7 +3054,9 @@
           "baslik": {
             "tr": "Rapor teslim",
             "en": "Report desk",
-            "ar": "تسليم التقارير"
+            "ar": "تسليم التقارير",
+            "de": "Berichtsabgabe",
+            "ru": "Сдача отчета"
           },
           "deger": "rapor@kesitradyoloji.example",
           "url": "mailto:rapor@kesitradyoloji.example"
@@ -2488,7 +3066,9 @@
           "baslik": {
             "tr": "Röntgen ve DEXA",
             "en": "X-ray and DEXA",
-            "ar": "الأشعة السينية وDEXA"
+            "ar": "الأشعة السينية وDEXA",
+            "de": "Röntgen und DEXA",
+            "ru": "Рентген и DEXA"
           },
           "deger": "+90 224 041 63 00 · 250"
         }
@@ -2533,24 +3113,32 @@
         "ust": {
           "tr": "Hazırlık rehberi",
           "en": "Preparation guide",
-          "ar": "دليل التحضير"
+          "ar": "دليل التحضير",
+          "de": "Vorbereitungsleitfaden",
+          "ru": "Руководство по подготовке"
         },
         "baslik": {
           "tr": "Tetkikleri yan yana karşılaştırın",
           "en": "Compare scans side by side",
-          "ar": "قارن الفحوص جنبًا إلى جنب"
+          "ar": "قارن الفحوص جنبًا إلى جنب",
+          "de": "Befunde nebeneinander vergleichen",
+          "ru": "Сравнивайте результаты анализов рядом"
         },
         "metin": {
           "tr": "Satıra dokunun; hazırlık talimatı ve uyarı açılır. Süreler yaklaşıktır; talimatı sevk eden hekiminiz değiştirebilir.",
           "en": "Tap a row to open its preparation and warning. Durations are approximate; your referring doctor may change the instructions.",
-          "ar": "المس الصف لتظهر تعليمات التحضير والتنبيه. المدد تقريبية؛ وقد يغيّر الطبيب المُحيل التعليمات."
+          "ar": "المس الصف لتظهر تعليمات التحضير والتنبيه. المدد تقريبية؛ وقد يغيّر الطبيب المُحيل التعليمات.",
+          "de": "Tippen Sie auf eine Zeile, um die Vorbereitungsanweisungen und Warnungen anzuzeigen. Die Zeiten sind ungefähr; Ihr überweisender Arzt kann die Anweisungen ändern.",
+          "ru": "Нажмите на строку, чтобы открыть инструкции по подготовке и предупреждения. Длительность приблизительная; ваш лечащий врач может изменить инструкции."
         },
         "img": "klinik-harita-bina.webp",
         "img2": "",
         "cta_ad": {
           "tr": "Randevu al",
           "en": "Book a scan",
-          "ar": "احجز فحصًا"
+          "ar": "احجز فحصًا",
+          "de": "Termin vereinbaren",
+          "ru": "Записаться"
         },
         "cta_url": "teklif-al",
         "cta2_ad": "",
@@ -2568,71 +3156,97 @@
         "tetkikAd": {
           "tr": "Tetkik",
           "en": "Scan",
-          "ar": "الفحص"
+          "ar": "الفحص",
+          "de": "Scan",
+          "ru": "Скан"
         },
         "sureAd": {
           "tr": "Süre",
           "en": "Time",
-          "ar": "المدة"
+          "ar": "المدة",
+          "de": "Dauer",
+          "ru": "Длительность"
         },
         "aclikAd": {
           "tr": "Açlık",
           "en": "Fasting",
-          "ar": "الصيام"
+          "ar": "الصيام",
+          "de": "Nüchtern",
+          "ru": "Голодание"
         },
         "kontrastAd": {
           "tr": "Kontrast",
           "en": "Contrast",
-          "ar": "مادة التباين"
+          "ar": "مادة التباين",
+          "de": "Kontrastmittel",
+          "ru": "Контраст"
         },
         "isinAd": {
           "tr": "Işın",
           "en": "Radiation",
-          "ar": "الإشعاع"
+          "ar": "الإشعاع",
+          "de": "Strahlung",
+          "ru": "Излучение"
         },
         "hazirlikAd": {
           "tr": "Hazırlık",
           "en": "Preparation",
-          "ar": "التحضير"
+          "ar": "التحضير",
+          "de": "Vorbereitung",
+          "ru": "Подготовка"
         },
         "yokAd": {
           "tr": "Gerekmez",
           "en": "Not needed",
-          "ar": "غير مطلوب"
+          "ar": "غير مطلوب",
+          "de": "Nicht erforderlich",
+          "ru": "Не требуется"
         },
         "bgcolor": "var(--mx-site-bg, #ffffff)",
         "color": "var(--mx-site-text, #111318)",
         "title": {
           "tr": "Tetkikleri yan yana karşılaştırın",
           "en": "Compare scans side by side",
-          "ar": "قارن الفحوص جنبًا إلى جنب"
+          "ar": "قارن الفحوص جنبًا إلى جنب",
+          "de": "Befunde nebeneinander vergleichen",
+          "ru": "Сравнивайте результаты анализов рядом"
         },
         "name": "",
         "description": {
           "tr": "Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "Die Angaben dienen der allgemeinen Information; die Entscheidung über die Untersuchung und die Vorbereitungshinweise liegen bei Ihrem überweisenden Arzt und der Fachärztin bzw. dem Facharzt für Radiologie. Teilen Sie eine mögliche Schwangerschaft unbedingt mit.",
+          "ru": "Сведения носят общий информационный характер; решение об обследовании и инструкции по подготовке остаются за направившим вас врачом и врачом-радиологом. Обязательно сообщите о возможной беременности."
         },
         "name2": {
           "tr": "Hazırlık rehberi",
           "en": "Preparation guide",
-          "ar": "دليل التحضير"
+          "ar": "دليل التحضير",
+          "de": "Vorbereitungsleitfaden",
+          "ru": "Руководство по подготовке"
         },
         "spot2": {
           "tr": "Her tetkik için ayrı not.",
           "en": "A note for each scan.",
-          "ar": "ملاحظة لكل فحص."
+          "ar": "ملاحظة لكل فحص.",
+          "de": "Eine Notiz für jede Untersuchung.",
+          "ru": "Заметка к каждому исследованию."
         },
         "icon2": "checklist",
         "name3": {
           "tr": "Sıra ekranı",
           "en": "Queue screen",
-          "ar": "شاشة الدور"
+          "ar": "شاشة الدور",
+          "de": "Warteschaltbildschirm",
+          "ru": "Экран очереди"
         },
         "spot3": {
           "tr": "Bekleme salonunda numara.",
           "en": "Numbers in the waiting room.",
-          "ar": "أرقام في قاعة الانتظار."
+          "ar": "أرقام في قاعة الانتظار.",
+          "de": "Nummer im Wartezimmer.",
+          "ru": "Номер в зале ожидания."
         },
         "icon3": "confirmation_number"
       },
@@ -2642,33 +3256,45 @@
           "baslik": {
             "tr": "MR (manyetik rezonans)",
             "en": "MRI",
-            "ar": "الرنين المغناطيسي"
+            "ar": "الرنين المغناطيسي",
+            "de": "MRT (Magnetresonanztomographie)",
+            "ru": "МРТ (магнитно-резонансная томография)"
           },
           "sure": {
             "tr": "20–45 dk",
             "en": "20–45 min",
-            "ar": "20–45 دقيقة"
+            "ar": "20–45 دقيقة",
+            "de": "20–45 Min.",
+            "ru": "20–45 мин"
           },
           "aclik": {
             "tr": "Bazı bölgelerde 4 sa",
             "en": "4 h for some areas",
-            "ar": "4 ساعات لبعض المناطق"
+            "ar": "4 ساعات لبعض المناطق",
+            "de": "In einigen Regionen 4 Std.",
+            "ru": "В некоторых регионах 4 ч"
           },
           "kontrast": {
             "tr": "Gerekebilir",
             "en": "May be needed",
-            "ar": "قد يلزم"
+            "ar": "قد يلزم",
+            "de": "Könnte benötigt werden",
+            "ru": "Может понадобиться"
           },
           "isin": 0,
           "metin": {
             "tr": "Metal eşya, takı ve kartları dolapta bırakın. Kalp pili, implant ya da vücutta metal varsa randevuda bildirin.",
             "en": "Leave metal items, jewellery and cards in the locker. Tell us when booking if you have a pacemaker, an implant or metal in your body.",
-            "ar": "اترك المعادن والمجوهرات والبطاقات في الخزانة. أخبرنا عند الحجز إن كان لديك منظم ضربات أو زرعة أو معدن في جسمك."
+            "ar": "اترك المعادن والمجوهرات والبطاقات في الخزانة. أخبرنا عند الحجز إن كان لديك منظم ضربات أو زرعة أو معدن في جسمك.",
+            "de": "Metallgegenstände, Schmuck und Karten im Schließfach lassen. Bei Buchung angeben, wenn Sie einen Schrittmacher, ein Implantat oder Metall im Körper haben.",
+            "ru": "Оставьте металлические предметы, украшения и карты в шкафчике. Сообщите при записи, если у вас есть кардиостимулятор, имплант или металл в теле."
           },
           "uyari": {
             "tr": "Kapalı alanda zorlanıyorsanız önceden söyleyin.",
             "en": "Tell us in advance if enclosed spaces are hard for you.",
-            "ar": "أخبرنا مسبقًا إذا كانت الأماكن المغلقة صعبة عليك."
+            "ar": "أخبرنا مسبقًا إذا كانت الأماكن المغلقة صعبة عليك.",
+            "de": "Wenn Sie sich in geschlossenen Räumen unwohl fühlen, sagen Sie es bitte vorher.",
+            "ru": "Если вам трудно в закрытом помещении, предупредите заранее."
           }
         },
         {
@@ -2676,33 +3302,45 @@
           "baslik": {
             "tr": "Bilgisayarlı tomografi",
             "en": "CT scan",
-            "ar": "الأشعة المقطعية"
+            "ar": "الأشعة المقطعية",
+            "de": "Computertomographie",
+            "ru": "Компьютерная томография"
           },
           "sure": {
             "tr": "10–20 dk",
             "en": "10–20 min",
-            "ar": "10–20 دقيقة"
+            "ar": "10–20 دقيقة",
+            "de": "10–20 Min.",
+            "ru": "10–20 мин"
           },
           "aclik": {
             "tr": "Kontrastlıda 4 sa",
             "en": "4 h if contrast",
-            "ar": "4 ساعات مع التباين"
+            "ar": "4 ساعات مع التباين",
+            "de": "4 Std. bei Kontrastmittel",
+            "ru": "4 ч при контрастном исследовании"
           },
           "kontrast": {
             "tr": "Bazı tetkiklerde",
             "en": "For some scans",
-            "ar": "لبعض الفحوص"
+            "ar": "لبعض الفحوص",
+            "de": "Bei manchen Untersuchungen",
+            "ru": "При некоторых исследованиях"
           },
           "isin": 2,
           "metin": {
             "tr": "Kontrastlı çekimde son kan tahlilinizi (böbrek değerleri) getirin; bol su içmeniz önerilebilir.",
             "en": "For a contrast scan bring your latest blood test (kidney values); you may be advised to drink plenty of water.",
-            "ar": "في الفحص مع التباين أحضر آخر تحليل دم (وظائف الكلى)؛ وقد يُنصح بشرب الكثير من الماء."
+            "ar": "في الفحص مع التباين أحضر آخر تحليل دم (وظائف الكلى)؛ وقد يُنصح بشرب الكثير من الماء.",
+            "de": "Bringen Sie für eine Kontrastuntersuchung Ihren letzten Bluttest (Nierenwerte) mit; es kann empfohlen werden, viel Wasser zu trinken.",
+            "ru": "Для исследования с контрастом принесите последний анализ крови (показатели почек); вам могут порекомендовать пить много воды."
           },
           "uyari": {
             "tr": "Gebelik olasılığı varsa çekimden önce bildirin.",
             "en": "Tell us before the scan if you might be pregnant.",
-            "ar": "أخبرينا قبل الفحص إذا كان هناك احتمال حمل."
+            "ar": "أخبرينا قبل الفحص إذا كان هناك احتمال حمل.",
+            "de": "Geben Sie vor der Untersuchung Bescheid, falls eine Schwangerschaft möglich ist.",
+            "ru": "Сообщите нам до сканирования, если возможна беременность."
           }
         },
         {
@@ -2710,12 +3348,16 @@
           "baslik": {
             "tr": "Röntgen",
             "en": "X-ray",
-            "ar": "الأشعة السينية"
+            "ar": "الأشعة السينية",
+            "de": "Röntgen",
+            "ru": "Рентген"
           },
           "sure": {
             "tr": "5–10 dk",
             "en": "5–10 min",
-            "ar": "5–10 دقائق"
+            "ar": "5–10 دقائق",
+            "de": "5–10 Min.",
+            "ru": "5–10 мин"
           },
           "aclik": "",
           "kontrast": "",
@@ -2723,12 +3365,16 @@
           "metin": {
             "tr": "Çekilecek bölgedeki takı ve metal düğmeli giysileri çıkarın.",
             "en": "Remove jewellery and clothes with metal buttons from the area to be imaged.",
-            "ar": "انزع المجوهرات والملابس ذات الأزرار المعدنية من المنطقة المراد تصويرها."
+            "ar": "انزع المجوهرات والملابس ذات الأزرار المعدنية من المنطقة المراد تصويرها.",
+            "de": "Legen Sie Schmuck und Kleidung mit Metallknöpfen im Aufnahmebereich ab.",
+            "ru": "Снимите украшения и одежду с металлическими пуговицами в области снимка."
           },
           "uyari": {
             "tr": "Gebelik olasılığı varsa çekimden önce bildirin.",
             "en": "Tell us before the scan if you might be pregnant.",
-            "ar": "أخبرينا قبل الفحص إذا كان هناك احتمال حمل."
+            "ar": "أخبرينا قبل الفحص إذا كان هناك احتمال حمل.",
+            "de": "Geben Sie vor der Untersuchung Bescheid, falls eine Schwangerschaft möglich ist.",
+            "ru": "Сообщите нам до сканирования, если возможна беременность."
           }
         },
         {
@@ -2736,24 +3382,32 @@
           "baslik": {
             "tr": "Ultrasonografi",
             "en": "Ultrasound",
-            "ar": "الموجات فوق الصوتية"
+            "ar": "الموجات فوق الصوتية",
+            "de": "Ultraschalluntersuchung",
+            "ru": "УЗИ"
           },
           "sure": {
             "tr": "15–30 dk",
             "en": "15–30 min",
-            "ar": "15–30 دقيقة"
+            "ar": "15–30 دقيقة",
+            "de": "15–30 Min.",
+            "ru": "15–30 мин"
           },
           "aclik": {
             "tr": "Karın için 6 sa",
             "en": "6 h for abdomen",
-            "ar": "6 ساعات للبطن"
+            "ar": "6 ساعات للبطن",
+            "de": "6 Std. für den Bauch",
+            "ru": "6 ч для живота"
           },
           "kontrast": "",
           "isin": 0,
           "metin": {
             "tr": "Karın ultrasonunda aç gelin; idrar yolu incelemesinde mesanenin dolu olması istenebilir.",
             "en": "Come fasting for an abdominal ultrasound; a full bladder may be needed for a urinary scan.",
-            "ar": "احضر صائمًا لفحص البطن؛ وقد يُطلب امتلاء المثانة لفحص المسالك البولية."
+            "ar": "احضر صائمًا لفحص البطن؛ وقد يُطلب امتلاء المثانة لفحص المسالك البولية.",
+            "de": "Kommen Sie zum Bauchultraschall nüchtern; bei der Harnwegsuntersuchung kann eine volle Blase verlangt werden.",
+            "ru": "На УЗИ брюшной полости приходите натощак; при исследовании мочевыводящих путей может потребоваться полный мочевой пузырь."
           },
           "uyari": ""
         },
@@ -2762,12 +3416,16 @@
           "baslik": {
             "tr": "Mamografi",
             "en": "Mammography",
-            "ar": "الماموغرام"
+            "ar": "الماموغرام",
+            "de": "Mammografie",
+            "ru": "Маммография"
           },
           "sure": {
             "tr": "15 dk",
             "en": "15 min",
-            "ar": "15 دقيقة"
+            "ar": "15 دقيقة",
+            "de": "15 Min.",
+            "ru": "15 мин"
           },
           "aclik": "",
           "kontrast": "",
@@ -2775,12 +3433,16 @@
           "metin": {
             "tr": "Çekim günü koltuk altına deodorant, pudra ya da krem sürmeyin; önceki filmlerinizi getirin.",
             "en": "On the day, do not use deodorant, powder or cream under the arms; bring your previous images.",
-            "ar": "في يوم الفحص لا تضعي مزيل عرق أو بودرة أو كريمًا تحت الإبطين؛ وأحضري صورك السابقة."
+            "ar": "في يوم الفحص لا تضعي مزيل عرق أو بودرة أو كريمًا تحت الإبطين؛ وأحضري صورك السابقة.",
+            "de": "Tragen Sie am Aufnahmetag kein Deo, Puder oder Creme in den Achseln auf; bringen Sie Ihre früheren Aufnahmen mit.",
+            "ru": "В день съёмки не наносите дезодорант, пудру или крем под мышки; принесите свои предыдущие снимки."
           },
           "uyari": {
             "tr": "Adet döngüsüne göre uygun günü randevuda konuşun.",
             "en": "Discuss the right day in your cycle when booking.",
-            "ar": "ناقشي اليوم المناسب من دورتك عند الحجز."
+            "ar": "ناقشي اليوم المناسب من دورتك عند الحجز.",
+            "de": "Besprechen Sie im Termin den passenden Tag je nach Menstruationszyklus.",
+            "ru": "Подходящий день с учётом менструального цикла обсудите при записи."
           }
         },
         {
@@ -2788,12 +3450,16 @@
           "baslik": {
             "tr": "Kemik yoğunluğu (DEXA)",
             "en": "Bone density (DEXA)",
-            "ar": "كثافة العظام (DEXA)"
+            "ar": "كثافة العظام (DEXA)",
+            "de": "Knochendichte (DEXA)",
+            "ru": "Плотность костей (DEXA)"
           },
           "sure": {
             "tr": "10–15 dk",
             "en": "10–15 min",
-            "ar": "10–15 دقيقة"
+            "ar": "10–15 دقيقة",
+            "de": "10–15 Min.",
+            "ru": "10–15 мин"
           },
           "aclik": "",
           "kontrast": "",
@@ -2801,7 +3467,9 @@
           "metin": {
             "tr": "Ölçümden önceki 24 saat kalsiyum takviyesi almayın; metal aksesuarsız giysi tercih edin.",
             "en": "Do not take calcium supplements in the 24 hours before; wear clothes without metal parts.",
-            "ar": "لا تتناول مكملات الكالسيوم خلال 24 ساعة قبل القياس؛ وارتدِ ملابس بلا قطع معدنية."
+            "ar": "لا تتناول مكملات الكالسيوم خلال 24 ساعة قبل القياس؛ وارتدِ ملابس بلا قطع معدنية.",
+            "de": "Nehmen Sie in den 24 Stunden vor der Messung keine Kalziumpräparate ein; tragen Sie Kleidung ohne Metallteile.",
+            "ru": "За 24 часа до измерения не принимайте препараты кальция; выбирайте одежду без металлических элементов."
           },
           "uyari": ""
         }
@@ -2844,28 +3512,38 @@
         "ust": {
           "tr": "Sıramatik",
           "en": "Queue",
-          "ar": "نظام الدور"
+          "ar": "نظام الدور",
+          "de": "Sıramatik",
+          "ru": "Sıramatik"
         },
         "baslik": {
           "tr": "Randevulu gelin, sıranız hazır olsun",
           "en": "Come with a booking, your number is ready",
-          "ar": "تعال بموعد ويكون دورك جاهزًا"
+          "ar": "تعال بموعد ويكون دورك جاهزًا",
+          "de": "Kommen Sie mit Termin, damit Sie gleich dran sind",
+          "ru": "Приходите по записи, и ваша очередь будет готова"
         },
         "metin": {
           "tr": "Randevu saatinden 15 dakika önce gelin; girişteki cihazdan randevu numaranızla fiş alın. Bekleme süreleri kurgusaldır.",
           "en": "Arrive 15 minutes before your time and take a ticket at the entrance with your booking number. Waiting times are fictional.",
-          "ar": "احضر قبل موعدك بخمس عشرة دقيقة وخذ تذكرة من الجهاز عند المدخل برقم حجزك. أوقات الانتظار افتراضية."
+          "ar": "احضر قبل موعدك بخمس عشرة دقيقة وخذ تذكرة من الجهاز عند المدخل برقم حجزك. أوقات الانتظار افتراضية.",
+          "de": "Kommen Sie 15 Minuten vor Ihrem Termin; nehmen Sie an der Eingangskasse mit Ihrer Buchungsnummer einen Zettel. Wartezeiten sind fiktiv.",
+          "ru": "Приходите за 15 минут до времени записи; возьмите талон на входе по номеру брони. Времена ожидания вымышлены."
         },
         "btn1Text": {
           "tr": "Randevu al",
           "en": "Book a scan",
-          "ar": "احجز فحصًا"
+          "ar": "احجز فحصًا",
+          "de": "Termin vereinbaren",
+          "ru": "Записаться"
         },
         "btn1Url": "teklif-al",
         "btn2Text": {
           "tr": "Hazırlık rehberi",
           "en": "Preparation guide",
-          "ar": "دليل التحضير"
+          "ar": "دليل التحضير",
+          "de": "Vorbereitungsleitfaden",
+          "ru": "Руководство по подготовке"
         },
         "btn2Url": "hizmetler",
         "img": "",
@@ -2874,34 +3552,46 @@
         "not": {
           "tr": "Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "Die Angaben dienen der allgemeinen Information; die Entscheidung über die Untersuchung und die Vorbereitungshinweise liegen bei Ihrem überweisenden Arzt und der Fachärztin bzw. dem Facharzt für Radiologie. Teilen Sie eine mögliche Schwangerschaft unbedingt mit.",
+          "ru": "Сведения носят общий информационный характер; решение об обследовании и инструкции по подготовке остаются за направившим вас врачом и врачом-радиологом. Обязательно сообщите о возможной беременности."
         },
         "number": "902240416300",
         "numberText": "+90 224 041 63 00",
         "waLabel": {
           "tr": "WhatsApp",
           "en": "WhatsApp",
-          "ar": "واتساب"
+          "ar": "واتساب",
+          "de": "WhatsApp",
+          "ru": "WhatsApp"
         },
         "waTitle": {
           "tr": "WhatsApp ile yazın",
           "en": "Write on WhatsApp",
-          "ar": "راسلنا عبر واتساب"
+          "ar": "راسلنا عبر واتساب",
+          "de": "Schreiben Sie per WhatsApp",
+          "ru": "Напишите в WhatsApp"
         },
         "waMessage": {
           "tr": "Merhaba Kesit, tetkik randevusu almak istiyorum.",
           "en": "Hello Kesit, I would like to book a scan.",
-          "ar": "مرحبًا كسيت، أودّ حجز موعد فحص."
+          "ar": "مرحبًا كسيت، أودّ حجز موعد فحص.",
+          "de": "Hallo Kesit, ich möchte einen Scan-Termin buchen.",
+          "ru": "Здравствуйте, Kesit, я хотел(а) бы записаться на сканирование."
         },
         "hours": {
           "tr": "Pzt–Cuma 08:00 – 20:00 · Cumartesi 09:00 – 15:00",
           "en": "Mon–Fri 08:00 – 20:00 · Sat 09:00 – 15:00",
-          "ar": "الاثنين–الجمعة 08:00 – 20:00 · السبت 09:00 – 15:00"
+          "ar": "الاثنين–الجمعة 08:00 – 20:00 · السبت 09:00 – 15:00",
+          "de": "Mo–Fr 08:00 – 20:00 · Samstag 09:00 – 15:00",
+          "ru": "Пн–Пт 08:00 – 20:00 · Суббота 09:00 – 15:00"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",
           "en": "Opening hours",
-          "ar": "ساعات العمل"
+          "ar": "ساعات العمل",
+          "de": "Öffnungszeiten",
+          "ru": "Часы работы"
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "yaziRenk": "var(--mx-site-text, #111318)",
@@ -2917,12 +3607,16 @@
         "siraAd": {
           "tr": "Şu an çağrılan",
           "en": "Now serving",
-          "ar": "الرقم الحالي"
+          "ar": "الرقم الحالي",
+          "de": "Wird gerade bedient",
+          "ru": "Сейчас обслуживается"
         },
         "bekleme": {
           "tr": "Randevulu ortalama bekleme 10 dk (kurgusal)",
           "en": "Average wait with a booking 10 min (fictional)",
-          "ar": "متوسط الانتظار مع الموعد 10 دقائق (افتراضي)"
+          "ar": "متوسط الانتظار مع الموعد 10 دقائق (افتراضي)",
+          "de": "Durchschnittliche Wartezeit mit Termin 10 Min. (fiktiv)",
+          "ru": "Среднее ожидание по записи — 10 мин (вымышленно)"
         },
         "bgcolor": "var(--mx-site-bg, #ffffff)",
         "color": "var(--mx-site-text, #111318)",
@@ -2930,22 +3624,30 @@
         "title": {
           "tr": "Sıranızı evden alın",
           "en": "Take your number from home",
-          "ar": "خذ دورك من المنزل"
+          "ar": "خذ دورك من المنزل",
+          "de": "Nehmen Sie Ihre Nummer von zu Hause aus",
+          "ru": "Получите свой номер из дома"
         },
         "btn1Label": {
           "tr": "Randevu al",
           "en": "Book a scan",
-          "ar": "احجز فحصًا"
+          "ar": "احجز فحصًا",
+          "de": "Termin vereinbaren",
+          "ru": "Записаться"
         },
         "btn2Label": {
           "tr": "Hazırlık",
           "en": "Preparation",
-          "ar": "التحضير"
+          "ar": "التحضير",
+          "de": "Vorbereitung",
+          "ru": "Подготовка"
         },
         "description": {
           "tr": "Randevulu gelin, numaranızı girişte alın.",
           "en": "Come with an appointment and take your number at the entrance.",
-          "ar": "تعال بموعد وخذ رقمك عند المدخل."
+          "ar": "تعال بموعد وخذ رقمك عند المدخل.",
+          "de": "Braut mit Termin: Nummer am Eingang ziehen.",
+          "ru": "Невеста по записи: возьмите номер у входа."
         }
       },
       "data": [
@@ -2954,12 +3656,16 @@
           "baslik": {
             "tr": "Kimlik ve istem belgesi",
             "en": "ID and request form",
-            "ar": "الهوية وورقة الطلب"
+            "ar": "الهوية وورقة الطلب",
+            "de": "Identität und Prompt-Dokument",
+            "ru": "Айдентика и документ с промптами"
           },
           "aciklama": {
             "tr": "Girişte gösterin",
             "en": "Show at the entrance",
-            "ar": "أظهرها عند المدخل"
+            "ar": "أظهرها عند المدخل",
+            "de": "Am Eingang vorzeigen",
+            "ru": "Покажите на входе"
           }
         },
         {
@@ -2967,12 +3673,16 @@
           "baslik": {
             "tr": "Önceki görüntüler",
             "en": "Previous images",
-            "ar": "الصور السابقة"
+            "ar": "الصور السابقة",
+            "de": "Frühere Aufnahmen",
+            "ru": "Предыдущие снимки"
           },
           "aciklama": {
             "tr": "CD ya da rapor",
             "en": "CD or report",
-            "ar": "قرص أو تقرير"
+            "ar": "قرص أو تقرير",
+            "de": "CD oder Befund",
+            "ru": "CD или заключение"
           }
         }
       ],
@@ -3017,19 +3727,25 @@
         "hakkinda": {
           "tr": "Nilüfer, Bursa’da kurgusal demo görüntüleme merkezi. Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "A fictional demo imaging centre in Nilufer, Bursa. Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "مركز تصوير تجريبي افتراضي في نيلوفر، بورصة. المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "مركز تصوير تجريبي افتراضي في نيلوفر، بورصة. المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "Fiktives Demo-Bildgebungszentrum in Nilüfer, Bursa. Die Angaben dienen der allgemeinen Information; Untersuchungsentscheidung und Vorbereitungsanweisung liegen bei Ihrem überweisenden Arzt und dem Facharzt für Radiologie. Geben Sie eine mögliche Schwangerschaft unbedingt an.",
+          "ru": "Вымышленный демонстрационный центр визуализации в Нилюфере, Бурса. Сведения носят общий информационный характер; решение об исследовании и инструкции по подготовке остаются за направившим врачом и врачом-радиологом. Обязательно сообщите о возможной беременности."
         },
         "tel": "+90 224 041 63 00",
         "eposta": "randevu@kesitradyoloji.example",
         "adres": {
           "tr": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (kurgusal adres)",
           "en": "117 Mudanya Road, Fethiye, Nilufer, Bursa (fictional address)",
-          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)"
+          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)",
+          "de": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (fiktive Adresse)",
+          "ru": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (вымышленный адрес)"
         },
         "cta_ad": {
           "tr": "Randevu al",
           "en": "Book a scan",
-          "ar": "احجز فحصًا"
+          "ar": "احجز فحصًا",
+          "de": "Termin vereinbaren",
+          "ru": "Записаться"
         },
         "cta_url": "teklif-al",
         "rightsText": "",
@@ -3053,12 +3769,16 @@
         "about": {
           "tr": "Kesit Radyoloji demo temadır; içerik kurgusaldır. Bilgiler genel bilgilendirme amaçlıdır; tetkik kararı ve hazırlık talimatı sevk eden hekiminize ve radyoloji uzmanına aittir. Gebelik olasılığınızı mutlaka bildirin.",
           "en": "Kesit Radiology is a demo theme; content is fictional. Information is general only; the decision on a scan and its preparation belong to your referring doctor and the radiologist. Always tell us if you might be pregnant.",
-          "ar": "كسيت للأشعة قالب تجريبي؛ المحتوى افتراضي. المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل."
+          "ar": "كسيت للأشعة قالب تجريبي؛ المحتوى افتراضي. المعلومات عامة فقط؛ وقرار الفحص وتعليمات التحضير يعودان إلى الطبيب المُحيل وأخصائي الأشعة. أخبرينا دائمًا إذا كان هناك احتمال حمل.",
+          "de": "Kesit Radiologie ist ein Demo-Theme; Inhalte sind fiktiv. Informationen dienen nur der allgemeinen Aufklärung; die Entscheidung über die Untersuchung und deren Vorbereitung liegt bei Ihrem überweisenden Arzt und dem Radiologen. Geben Sie bitte unbedingt an, ob eine Schwangerschaft möglich ist.",
+          "ru": "Kesit Radiology — демо-тема; контент вымышленный. Информация носит общий характер; решение о проведении исследования и подготовке к нему принимают ваш лечащий врач и рентгенолог. Обязательно сообщите о возможной беременности."
         },
         "address": {
           "tr": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (kurgusal adres)",
           "en": "117 Mudanya Road, Fethiye, Nilufer, Bursa (fictional address)",
-          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)"
+          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)",
+          "de": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (fiktive Adresse)",
+          "ru": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (вымышленный адрес)"
         },
         "phone": "+90 224 041 63 00",
         "email": "randevu@kesitradyoloji.example",
@@ -3068,7 +3788,9 @@
             "name": {
               "tr": "KVKK",
               "en": "Privacy (KVKK)",
-              "ar": "حماية البيانات"
+              "ar": "حماية البيانات",
+              "de": "Datenschutz (KVKK)",
+              "ru": "Закон о защите данных (KVKK)"
             },
             "href": "kisiselveriler"
           },
@@ -3076,7 +3798,9 @@
             "name": {
               "tr": "Gizlilik",
               "en": "Privacy policy",
-              "ar": "سياسة الخصوصية"
+              "ar": "سياسة الخصوصية",
+              "de": "Datenschutz",
+              "ru": "Конфиденциальность"
             },
             "href": "gizlilikpolitikasi"
           },
@@ -3084,7 +3808,9 @@
             "name": {
               "tr": "Yasal uyarı",
               "en": "Legal notice",
-              "ar": "إشعار قانوني"
+              "ar": "إشعار قانوني",
+              "de": "Rechtlicher Hinweis",
+              "ru": "Правовое уведомление"
             },
             "href": "yasaluyari"
           }
@@ -3094,14 +3820,18 @@
         "nlKvkk": {
           "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
           "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
-          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت.",
+          "de": "Ihre E-Mail-Adresse wird nur für den Versand von Ankündigungen verwendet; Sie können sich jederzeit abmelden.",
+          "ru": "Ваш e-mail используется только для рассылки объявлений; вы можете отписаться в любой момент."
         },
         "services": [
           {
             "name": {
               "tr": "Tetkikler",
               "en": "Scans",
-              "ar": "الفحوص"
+              "ar": "الفحوص",
+              "de": "Untersuchungen",
+              "ru": "Обследования"
             },
             "href": "hizmetler"
           },
@@ -3109,7 +3839,9 @@
             "name": {
               "tr": "Uzmanlar",
               "en": "Specialists",
-              "ar": "الأخصائيون"
+              "ar": "الأخصائيون",
+              "de": "Spezialisten",
+              "ru": "Специалисты"
             },
             "href": "ekip"
           },
@@ -3117,7 +3849,9 @@
             "name": {
               "tr": "Randevu",
               "en": "Booking",
-              "ar": "الحجز"
+              "ar": "الحجز",
+              "de": "Termin",
+              "ru": "Запись"
             },
             "href": "teklif-al"
           }
@@ -3127,7 +3861,9 @@
             "days": {
               "tr": "Pzt–Cuma",
               "en": "Mon–Fri",
-              "ar": "الاثنين–الجمعة"
+              "ar": "الاثنين–الجمعة",
+              "de": "Mo–Fr",
+              "ru": "Пн–Пт"
             },
             "time": "08:00 – 20:00"
           },
@@ -3135,7 +3871,9 @@
             "days": {
               "tr": "Cumartesi",
               "en": "Saturday",
-              "ar": "السبت"
+              "ar": "السبت",
+              "de": "Samstag",
+              "ru": "Суббота"
             },
             "time": "09:00 – 15:00"
           }
@@ -3143,12 +3881,16 @@
         "title_services": {
           "tr": "Hızlı bağlantılar",
           "en": "Quick links",
-          "ar": "روابط سريعة"
+          "ar": "روابط سريعة",
+          "de": "Schnellzugriff",
+          "ru": "Быстрые ссылки"
         },
         "title_hours": {
           "tr": "Saatler",
           "en": "Hours",
-          "ar": "الساعات"
+          "ar": "الساعات",
+          "de": "Öffnungszeiten",
+          "ru": "Часы работы"
         }
       },
       "data": [],
@@ -3197,17 +3939,23 @@
         "ust": {
           "tr": "Randevu",
           "en": "Booking",
-          "ar": "الحجز"
+          "ar": "الحجز",
+          "de": "Termin",
+          "ru": "Запись"
         },
         "baslik": {
           "tr": "Tetkiki seçin, hazırlığı işaretleyin",
           "en": "Choose the scan, tick the preparation",
-          "ar": "اختر الفحص وأشّر على التحضير"
+          "ar": "اختر الفحص وأشّر على التحضير",
+          "de": "Untersuchung wählen, Vorbereitung ankreuzen",
+          "ru": "Выберите исследование, отметьте подготовку"
         },
         "metin": {
           "tr": "Seçtiğiniz tetkikin hazırlık notu açılır; kontrol listesini işaretleyince gün ve saat seçebilirsiniz. Talep WhatsApp’ta hazır açılır, merkez arayıp onaylar. Bu form demodur; veri saklanmaz.",
           "en": "The preparation note for your scan opens; once you tick the checklist you can pick a day and time. The request opens ready in WhatsApp and the centre calls to confirm. This form is a demo; no data is stored.",
-          "ar": "تظهر ملاحظة التحضير للفحص الذي تختاره؛ وبعد التأشير على القائمة يمكنك اختيار اليوم والوقت. يُفتح الطلب جاهزًا في واتساب ويتصل المركز للتأكيد. هذا النموذج تجريبي؛ لا تُحفظ أي بيانات."
+          "ar": "تظهر ملاحظة التحضير للفحص الذي تختاره؛ وبعد التأشير على القائمة يمكنك اختيار اليوم والوقت. يُفتح الطلب جاهزًا في واتساب ويتصل المركز للتأكيد. هذا النموذج تجريبي؛ لا تُحفظ أي بيانات.",
+          "de": "Die Vorbereitungsnotiz für Ihre Untersuchung öffnet sich; nach Abhaken der Checkliste können Sie Tag und Uhrzeit wählen. Die Anfrage öffnet sich bereit in WhatsApp, das Zentrum ruft zur Bestätigung an. Dieses Formular ist eine Demo; es werden keine Daten gespeichert.",
+          "ru": "Открывается памятка по подготовке к вашему исследованию; после отметки пунктов чек-листа можно выбрать день и время. Запрос открывается готовым в WhatsApp, центр перезванивает для подтверждения. Эта форма — демо; данные не сохраняются."
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "text": "var(--mx-site-text, #111318)",
@@ -3223,28 +3971,38 @@
           {
             "tr": "İstem belgem ya da e-reçete numaram yanımda.",
             "en": "I have my request form or e-prescription number.",
-            "ar": "معي ورقة الطلب أو رقم الوصفة الإلكترونية."
+            "ar": "معي ورقة الطلب أو رقم الوصفة الإلكترونية.",
+            "de": "Ich habe meine Überweisung oder E-Rezept-Nummer dabei.",
+            "ru": "Направление или номер электронного рецепта при мне."
           },
           {
             "tr": "Önceki görüntü ve raporlarımı getireceğim.",
             "en": "I will bring my previous images and reports.",
-            "ar": "سأحضر صوري وتقاريري السابقة."
+            "ar": "سأحضر صوري وتقاريري السابقة.",
+            "de": "Ich bringe meine früheren Bilder und Berichte mit.",
+            "ru": "Я принесу свои предыдущие снимки и отчёты."
           },
           {
             "tr": "Hazırlık notundaki açlık ve ilaç bilgisini okudum.",
             "en": "I have read the fasting and medicine notes.",
-            "ar": "قرأت ملاحظات الصيام والأدوية."
+            "ar": "قرأت ملاحظات الصيام والأدوية.",
+            "de": "Ich habe die Hinweise zu Nüchternheit und Medikamenten gelesen.",
+            "ru": "Я прочитал(а) примечания о голодании и приёме лекарств."
           },
           {
             "tr": "Gebelik olasılığım varsa girişte bildireceğim.",
             "en": "I will tell the desk if I might be pregnant.",
-            "ar": "سأخبر الاستقبال إذا كان هناك احتمال حمل."
+            "ar": "سأخبر الاستقبال إذا كان هناك احتمال حمل.",
+            "de": "Wenn eine Schwangerschaft möglich ist, melde ich es am Eingang.",
+            "ru": "Если возможна беременность, я сообщу об этом при входе."
           }
         ],
         "hazirlikAd": {
           "tr": "Hazırlık kontrol listesi",
           "en": "Preparation checklist",
-          "ar": "قائمة التحقق من التحضير"
+          "ar": "قائمة التحقق من التحضير",
+          "de": "Vorbereitungs-Checkliste",
+          "ru": "Чек-лист подготовки"
         },
         "bgcolor": "var(--mx-site-bg, #ffffff)",
         "color": "var(--mx-site-text, #111318)",
@@ -3254,7 +4012,9 @@
         "konum": {
           "tr": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (kurgusal adres)",
           "en": "117 Mudanya Road, Fethiye, Nilufer, Bursa (fictional address)",
-          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)"
+          "ar": "طريق مودانيا رقم 117، حي فتحية، نيلوفر، بورصة (عنوان افتراضي)",
+          "de": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (fiktive Adresse)",
+          "ru": "Fethiye Mahallesi, Mudanya Yolu No: 117, Nilüfer, Bursa (вымышленный адрес)"
         },
         "submit": "whatsapp",
         "leadDays": 1,
@@ -3288,12 +4048,16 @@
             "name": {
               "tr": "MR ve tomografi",
               "en": "MRI and CT",
-              "ar": "الرنين والأشعة المقطعية"
+              "ar": "الرنين والأشعة المقطعية",
+              "de": "MRT und CT",
+              "ru": "МРТ и КТ"
             },
             "role": {
               "tr": "Birim",
               "en": "Unit",
-              "ar": "الوحدة"
+              "ar": "الوحدة",
+              "de": "Einheit",
+              "ru": "Единица"
             }
           },
           {
@@ -3301,12 +4065,16 @@
             "name": {
               "tr": "Ultrason ve mamografi",
               "en": "Ultrasound and mammography",
-              "ar": "الموجات فوق الصوتية والماموغرام"
+              "ar": "الموجات فوق الصوتية والماموغرام",
+              "de": "Ultraschall und Mammographie",
+              "ru": "Ультразвук и маммография"
             },
             "role": {
               "tr": "Birim",
               "en": "Unit",
-              "ar": "الوحدة"
+              "ar": "الوحدة",
+              "de": "Einheit",
+              "ru": "Единица"
             }
           },
           {
@@ -3314,48 +4082,64 @@
             "name": {
               "tr": "Röntgen ve DEXA",
               "en": "X-ray and DEXA",
-              "ar": "الأشعة السينية وDEXA"
+              "ar": "الأشعة السينية وDEXA",
+              "de": "Röntgen und DEXA",
+              "ru": "Рентген и DEXA"
             },
             "role": {
               "tr": "Birim",
               "en": "Unit",
-              "ar": "الوحدة"
+              "ar": "الوحدة",
+              "de": "Einheit",
+              "ru": "Единица"
             }
           }
         ],
         "uzmanAd": {
           "tr": "Birim",
           "en": "Unit",
-          "ar": "الوحدة"
+          "ar": "الوحدة",
+          "de": "Einheit",
+          "ru": "Единица"
         },
         "farkAd": {
           "tr": "Tetkike göre",
           "en": "Based on the scan",
-          "ar": "حسب الفحص"
+          "ar": "حسب الفحص",
+          "de": "Je nach Untersuchung",
+          "ru": "В зависимости от обследования"
         },
         "kvkkText": {
           "tr": "Kişisel verilerimin yalnız bu randevu talebinin yanıtlanması için işlenmesine ilişkin aydınlatma metnini okudum.",
           "en": "I have read the privacy notice on processing my personal data only to answer this booking request.",
-          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على طلب الحجز هذا فقط."
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على طلب الحجز هذا فقط.",
+          "de": "Ich habe die Datenschutzerklärung gelesen, wonach meine personenbezogenen Daten ausschließlich zur Beantwortung dieser Terminanfrage verarbeitet werden.",
+          "ru": "Я прочитал(а) уведомление о том, что мои персональные данные обрабатываются исключительно для ответа на этот запрос о записи."
         },
         "kvkkHref": "kisiselveriler",
         "kvkk": {
           "text": {
             "tr": "Kişisel verilerimin yalnız bu randevu talebinin yanıtlanması için işlenmesine ilişkin aydınlatma metnini okudum.",
             "en": "I have read the privacy notice on processing my personal data only to answer this booking request.",
-            "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على طلب الحجز هذا فقط."
+            "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على طلب الحجز هذا فقط.",
+            "de": "Ich habe die Datenschutzerklärung gelesen, wonach meine personenbezogenen Daten ausschließlich zur Beantwortung dieser Terminanfrage verarbeitet werden.",
+            "ru": "Я прочитал(а) уведомление о том, что мои персональные данные обрабатываются исключительно для ответа на этот запрос о записи."
           },
           "href": "kisiselveriler"
         },
         "successText": {
           "tr": "Talebiniz hazırlandı. Randevu, merkezin onay aramasından sonra takvime işlenir. (Demo)",
           "en": "Your request is ready. The booking is added after the centre calls to confirm. (Demo)",
-          "ar": "طلبك جاهز. يُضاف الموعد بعد اتصال المركز للتأكيد. (تجريبي)"
+          "ar": "طلبك جاهز. يُضاف الموعد بعد اتصال المركز للتأكيد. (تجريبي)",
+          "de": "Ihre Anfrage ist bereit. Der Termin wird nach dem Bestätigungsanruf des Zentrums in den Kalender eingetragen. (Demo)",
+          "ru": "Ваш запрос готов. Запись вносится в календарь после подтверждающего звонка центра. (Демо)"
         },
         "konu": {
           "tr": "Tetkik randevusu talebi",
           "en": "Scan booking request",
-          "ar": "طلب موعد فحص"
+          "ar": "طلب موعد فحص",
+          "de": "Anfrage für einen Untersuchungstermin",
+          "ru": "Заявка на запись на обследование"
         }
       },
       "data": [
@@ -3363,84 +4147,108 @@
           "ad": {
             "tr": "MR",
             "en": "MRI",
-            "ar": "الرنين المغناطيسي"
+            "ar": "الرنين المغناطيسي",
+            "de": "MRT",
+            "ru": "МРТ"
           },
           "sure": 45,
           "ikon": "radiology",
           "metin": {
             "tr": "Metal eşyaları çıkarın; kontrastlıda 4 saat açlık.",
             "en": "Remove metal items; 4 hours fasting if contrast is used.",
-            "ar": "انزع المعادن؛ وصيام 4 ساعات إذا استُخدم التباين."
+            "ar": "انزع المعادن؛ وصيام 4 ساعات إذا استُخدم التباين.",
+            "de": "Metallgegenstände ablegen; bei Kontrastmittel 4 Stunden nüchtern.",
+            "ru": "Снимите металлические предметы; при исследовании с контрастом — 4 часа натощак."
           }
         },
         {
           "ad": {
             "tr": "Bilgisayarlı tomografi",
             "en": "CT scan",
-            "ar": "الأشعة المقطعية"
+            "ar": "الأشعة المقطعية",
+            "de": "Computertomographie",
+            "ru": "Компьютерная томография"
           },
           "sure": 20,
           "ikon": "motion_photos_on",
           "metin": {
             "tr": "Kontrastlıda son böbrek tahlilinizi getirin.",
             "en": "For contrast, bring your latest kidney test.",
-            "ar": "مع التباين أحضر آخر تحليل للكلى."
+            "ar": "مع التباين أحضر آخر تحليل للكلى.",
+            "de": "Bringen Sie bei Kontrastmittel Ihren letzten Nierenwert mit.",
+            "ru": "При исследовании с контрастом принесите последний анализ почек."
           }
         },
         {
           "ad": {
             "tr": "Röntgen",
             "en": "X-ray",
-            "ar": "الأشعة السينية"
+            "ar": "الأشعة السينية",
+            "de": "Röntgen",
+            "ru": "Рентген"
           },
           "sure": 10,
           "ikon": "skeleton",
           "metin": {
             "tr": "Hazırlık gerekmez; takıları çıkarın.",
             "en": "No preparation; remove jewellery.",
-            "ar": "لا تحضير؛ انزع المجوهرات."
+            "ar": "لا تحضير؛ انزع المجوهرات.",
+            "de": "Keine Vorbereitung nötig; Schmuck ablegen.",
+            "ru": "Подготовка не требуется; снимите украшения."
           }
         },
         {
           "ad": {
             "tr": "Karın ultrasonu",
             "en": "Abdominal ultrasound",
-            "ar": "موجات فوق صوتية للبطن"
+            "ar": "موجات فوق صوتية للبطن",
+            "de": "Bauchultraschall",
+            "ru": "УЗИ брюшной полости"
           },
           "sure": 20,
           "ikon": "sensors",
           "metin": {
             "tr": "6 saat aç gelin.",
             "en": "Come after 6 hours of fasting.",
-            "ar": "احضر بعد صيام 6 ساعات."
+            "ar": "احضر بعد صيام 6 ساعات.",
+            "de": "Kommen Sie nach 6 Stunden Nüchternheit.",
+            "ru": "Приходите натощак, после 6 часов голодания."
           }
         },
         {
           "ad": {
             "tr": "Mamografi",
             "en": "Mammography",
-            "ar": "الماموغرام"
+            "ar": "الماموغرام",
+            "de": "Mammografie",
+            "ru": "Маммография"
           },
           "sure": 15,
           "ikon": "female",
           "metin": {
             "tr": "Koltuk altına deodorant sürmeyin.",
             "en": "No deodorant under the arms.",
-            "ar": "لا مزيل عرق تحت الإبطين."
+            "ar": "لا مزيل عرق تحت الإبطين.",
+            "de": "Kein Deodorant unter den Achseln.",
+            "ru": "Не наносите дезодорант под мышки."
           }
         },
         {
           "ad": {
             "tr": "Kemik yoğunluğu",
             "en": "Bone density",
-            "ar": "كثافة العظام"
+            "ar": "كثافة العظام",
+            "de": "Knochendichte",
+            "ru": "Плотность костей"
           },
           "sure": 15,
           "ikon": "accessibility_new",
           "metin": {
             "tr": "24 saat kalsiyum takviyesi almayın.",
             "en": "No calcium supplements for 24 hours.",
-            "ar": "لا مكملات كالسيوم لمدة 24 ساعة."
+            "ar": "لا مكملات كالسيوم لمدة 24 ساعة.",
+            "de": "Nehmen Sie 24 Stunden lang keine Kalziumpräparate.",
+            "ru": "Не принимайте добавки кальция в течение 24 часов."
           }
         }
       ],

@@ -4,12 +4,16 @@
   "description": {
     "tr": "Kesit Radyoloji: Bursa Nilüfer’de MR, tomografi, röntgen, ultrason, mamografi ve kemik yoğunluğu ölçümü için randevulu görüntüleme; tetkik öncesi hazırlık rehberi. Demo site; içerik kurgusaldır.",
     "en": "Kesit Radiology: appointment-based MRI, CT, X-ray, ultrasound, mammography and bone density imaging in Nilufer, Bursa, with a preparation guide before each scan. Demo site; content is fictional.",
-    "ar": "كسيت للأشعة: تصوير بالموعد للرنين المغناطيسي والأشعة المقطعية والسينية والموجات فوق الصوتية والماموغرام وكثافة العظام في نيلوفر، بورصة، مع دليل تحضير قبل كل فحص. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "كسيت للأشعة: تصوير بالموعد للرنين المغناطيسي والأشعة المقطعية والسينية والموجات فوق الصوتية والماموغرام وكثافة العظام في نيلوفر، بورصة، مع دليل تحضير قبل كل فحص. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Kesit Radyoloji: Bildgebung mit Terminvergabe in Bursa Nilüfer für MRT, Tomografie, Röntgen, Ultraschall, Mammografie und Knochendichtemessung; Vorbereitungsratgeber vor der Untersuchung. Demo-Website; Inhalte sind fiktiv.",
+    "ru": "Kesit Radyoloji: визуальная диагностика по записи в Бурсе (Нилюфер) — МРТ, томография, рентген, УЗИ, маммография и денситометрия; памятка по подготовке перед обследованием. Демо-сайт; содержание условное."
   },
   "keyword": {
     "tr": "radyoloji, MR, tomografi, röntgen, ultrason, mamografi, tetkik hazırlığı, Bursa",
     "en": "radiology, MRI, CT, X-ray, ultrasound, mammography, scan preparation, Bursa",
-    "ar": "أشعة، رنين مغناطيسي، أشعة مقطعية، أشعة سينية، موجات فوق صوتية، ماموغرام، التحضير للفحص، بورصة"
+    "ar": "أشعة، رنين مغناطيسي، أشعة مقطعية، أشعة سينية، موجات فوق صوتية، ماموغرام، التحضير للفحص، بورصة",
+    "de": "Radiologie, MRT, CT, Röntgen, Ultraschall, Mammographie, Untersuchungsvorbereitung, Bursa",
+    "ru": "радиология, МРТ, КТ, рентген, УЗИ, маммография, подготовка к обследованию, Бурса"
   },
   "category": "Kurumsal",
   "name": "Kesit Radyoloji",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

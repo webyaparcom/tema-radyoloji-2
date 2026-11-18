@@ -3,17 +3,23 @@
   "name": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "description": {
     "tr": "Vizyonumuz",
     "en": "Our vision",
-    "ar": "رؤيتنا"
+    "ar": "رؤيتنا",
+    "de": "Unsere Vision",
+    "ru": "Наше видение"
   },
   "keyword": {
     "tr": "Vizyon",
     "en": "vision, our vision, goals",
-    "ar": "الرؤية, رؤيتنا, الأهداف"
+    "ar": "الرؤية, رؤيتنا, الأهداف",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "path": "vizyon",
   "icon": "visibility",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Vizyonumuz</h2>\n<p>Hazırlık sorusu yüzünden ertelenen tetkik kalmayan bir merkez olmak.</p>",
     "en": "<h2>Our vision</h2>\n<p>To be a centre where no scan is postponed because of a preparation question.</p>",
-    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون مركزًا لا يُؤجَّل فيه أي فحص بسبب سؤال عن التحضير.</p>"
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون مركزًا لا يُؤجَّل فيه أي فحص بسبب سؤال عن التحضير.</p>",
+    "de": "<h2>Unsere Vision</h2>\n<p>Ein Zentrum zu sein, in dem keine Untersuchung wegen einer Vorbereitungsfrage verschoben wird.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Стать центром, где ни одно обследование не откладывается из-за вопроса о подготовке.</p>"
   },
   "title": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "date": "2026-11-16T18:05:37.934Z",
   "update": "2026-11-16T18:09:16.124Z",

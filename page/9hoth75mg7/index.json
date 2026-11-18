@@ -3,17 +3,23 @@
   "name": {
     "tr": "Uzmanlar",
     "en": "Specialists",
-    "ar": "الأخصائيون"
+    "ar": "الأخصائيون",
+    "de": "Spezialisten",
+    "ru": "Специалисты"
   },
   "description": {
     "tr": "Aranabilir kurgusal uzman ve teknik kadro.",
     "en": "Searchable fictional specialists and technical staff.",
-    "ar": "أخصائيون وفريق فني افتراضيون قابلون للبحث."
+    "ar": "أخصائيون وفريق فني افتراضيون قابلون للبحث.",
+    "de": "Suchbare fiktive Spezialisten und technisches Personal.",
+    "ru": "Поисковые вымышленные специалисты и технический персонал."
   },
   "keyword": {
     "tr": "ekip, kadro",
     "en": "team, staff",
-    "ar": "فريق، طاقم"
+    "ar": "فريق، طاقم",
+    "de": "Team, Personal",
+    "ru": "команда, персонал"
   },
   "path": "ekip",
   "icon": "groups",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Uzmanlar",
     "en": "Specialists",
-    "ar": "الأخصائيون"
+    "ar": "الأخصائيون",
+    "de": "Spezialisten",
+    "ru": "Специалисты"
   },
   "date": "2026-11-16T18:05:38.118Z",
   "update": "2026-11-16T18:09:16.097Z"

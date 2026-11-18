@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Sevk edilen her tetkiki randevulu, açık hazırlık bilgisiyle ve sakin bir akışla yapmak.</p>",
     "en": "<h2>Our mission</h2>\n<p>To carry out every referred scan by appointment, with clear preparation information and a calm flow.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>إجراء كل فحص مُحال بموعد مع معلومات تحضير واضحة وتدفق هادئ.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>إجراء كل فحص مُحال بموعد مع معلومات تحضير واضحة وتدفق هادئ.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Jede überwiesene Untersuchung nach Terminvergabe, mit klaren Vorbereitungshinweisen und in ruhigem Ablauf durchzuführen.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Проводить каждое направленное обследование по записи, с чёткой информацией о подготовке и в спокойной обстановке.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T18:05:37.934Z",
   "update": "2026-11-16T18:09:16.122Z",
