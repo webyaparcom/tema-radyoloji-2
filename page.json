@@ -5,12 +5,16 @@
       "name": {
         "tr": "Tetkikler",
         "en": "Scans",
-        "ar": "الفحوص"
+        "ar": "الفحوص",
+        "de": "Untersuchungen",
+        "ru": "Обследования"
       },
       "description": {
         "tr": "Tetkik karşılaştırması ve hazırlık talimatları.",
         "en": "Scan comparison and preparation instructions.",
-        "ar": "مقارنة الفحوص وتعليمات التحضير."
+        "ar": "مقارنة الفحوص وتعليمات التحضير.",
+        "de": "Befundvergleich und Vorbereitungshinweise.",
+        "ru": "Сравнение анализов и инструкции по подготовке."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -31,7 +35,9 @@
       "name": {
         "tr": "Hakkımızda",
         "en": "About",
-        "ar": "من نحن"
+        "ar": "من نحن",
+        "de": "Über uns",
+        "ru": "О нас"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -52,7 +58,9 @@
       "description": {
         "tr": "Yaklaşımımız ve sıra düzeni (kurgusal).",
         "en": "Our approach and queue system (fictional).",
-        "ar": "نهجنا ونظام الدور (افتراضي)."
+        "ar": "نهجنا ونظام الدور (افتراضي).",
+        "de": "Unser Ansatz und Warteschlange (fiktiv).",
+        "ru": "Наш подход и система очереди (вымышленная)."
       }
     },
     {
@@ -60,12 +68,16 @@
       "name": {
         "tr": "Uzmanlar",
         "en": "Specialists",
-        "ar": "الأخصائيون"
+        "ar": "الأخصائيون",
+        "de": "Spezialisten",
+        "ru": "Специалисты"
       },
       "description": {
         "tr": "Aranabilir kurgusal uzman ve teknik kadro.",
         "en": "Searchable fictional specialists and technical staff.",
-        "ar": "أخصائيون وفريق فني افتراضيون قابلون للبحث."
+        "ar": "أخصائيون وفريق فني افتراضيون قابلون للبحث.",
+        "de": "Suchbare fiktive Spezialisten und technisches Personal.",
+        "ru": "Поисковые вымышленные специалисты и технический персонал."
       },
       "path": "ekip",
       "icon": "groups",
@@ -86,12 +98,16 @@
       "name": {
         "tr": "Sorular",
         "en": "Questions",
-        "ar": "الأسئلة"
+        "ar": "الأسئلة",
+        "de": "FAQ",
+        "ru": "FAQ"
       },
       "description": {
         "tr": "Merak edilenler ve kısa yanıtlar.",
         "en": "Common questions and short answers.",
-        "ar": "أسئلة متكررة وإجابات موجزة."
+        "ar": "أسئلة متكررة وإجابات موجزة.",
+        "de": "Was Sie wissen möchten, in kurzen Antworten.",
+        "ru": "Что интересует читателей — в коротких ответах."
       },
       "path": "sorular",
       "icon": "help",
@@ -112,12 +128,16 @@
       "name": {
         "tr": "Randevu",
         "en": "Booking",
-        "ar": "الحجز"
+        "ar": "الحجز",
+        "de": "Termin",
+        "ru": "Запись"
       },
       "description": {
         "tr": "Tetkik seçimi, hazırlık kontrol listesi ve randevu talebi (demo).",
         "en": "Scan choice, preparation checklist and booking request (demo).",
-        "ar": "اختيار الفحص وقائمة التحضير وطلب الحجز (تجريبي)."
+        "ar": "اختيار الفحص وقائمة التحضير وطلب الحجز (تجريبي).",
+        "de": "Untersuchungsauswahl, Checkliste zur Vorbereitung und Terminanfrage (Demo).",
+        "ru": "Выбор обследований, чек-лист подготовки и запрос на приём (демо)."
       },
       "path": "teklif-al",
       "icon": "event",
@@ -136,7 +156,9 @@
       "name": {
         "tr": "Birimler",
         "en": "Units",
-        "ar": "الوحدات"
+        "ar": "الوحدات",
+        "de": "Einheiten",
+        "ru": "Отделения"
       },
       "status": "play",
       "id": "iletisim",
@@ -157,7 +179,9 @@
       "description": {
         "tr": "Birim ve dahili telefon rehberi, adres ve saatler.",
         "en": "Unit and extension directory, address and hours.",
-        "ar": "دليل الوحدات والتحويلات والعنوان والساعات."
+        "ar": "دليل الوحدات والتحويلات والعنوان والساعات.",
+        "de": "Abteilungs- und Durchwahlverzeichnis, Adressen und Zeiten.",
+        "ru": "Справочник отделов и внутренних телефонов, адреса и часы."
       }
     }
   ],

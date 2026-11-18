@@ -3,17 +3,23 @@
   "name": {
     "tr": "Tetkikler",
     "en": "Scans",
-    "ar": "الفحوص"
+    "ar": "الفحوص",
+    "de": "Untersuchungen",
+    "ru": "Обследования"
   },
   "description": {
     "tr": "Tetkik karşılaştırması ve hazırlık talimatları.",
     "en": "Scan comparison and preparation instructions.",
-    "ar": "مقارنة الفحوص وتعليمات التحضير."
+    "ar": "مقارنة الفحوص وتعليمات التحضير.",
+    "de": "Befundvergleich und Vorbereitungshinweise.",
+    "ru": "Сравнение анализов и инструкции по подготовке."
   },
   "keyword": {
     "tr": "Tetkikler",
     "en": "Scans",
-    "ar": "الفحوص"
+    "ar": "الفحوص",
+    "de": "Untersuchungen",
+    "ru": "Обследования"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -34,7 +40,9 @@
   "title": {
     "tr": "Tetkikler",
     "en": "Scans",
-    "ar": "الفحوص"
+    "ar": "الفحوص",
+    "de": "Untersuchungen",
+    "ru": "Обследования"
   },
   "date": "2026-11-16T18:05:38.106Z",
   "update": "2026-11-16T18:09:16.086Z"

@@ -2,7 +2,9 @@
   "name": {
     "tr": "Birimler",
     "en": "Units",
-    "ar": "الوحدات"
+    "ar": "الوحدات",
+    "de": "Einheiten",
+    "ru": "Отделения"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Birim ve dahili telefon rehberi, adres ve saatler.",
     "en": "Unit and extension directory, address and hours.",
-    "ar": "دليل الوحدات والتحويلات والعنوان والساعات."
+    "ar": "دليل الوحدات والتحويلات والعنوان والساعات.",
+    "de": "Abteilungs- und Durchwahlverzeichnis, Adressen und Zeiten.",
+    "ru": "Справочник отделов и внутренних телефонов, адреса и часы."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Birimler",
     "en": "Units",
-    "ar": "الوحدات"
+    "ar": "الوحدات",
+    "de": "Einheiten",
+    "ru": "Отделения"
   },
   "keyword": {
     "tr": "iletişim",
     "en": "contact",
-    "ar": "اتصال"
+    "ar": "اتصال",
+    "de": "Kontakt",
+    "ru": "контакты"
   },
   "text": {},
   "update": "2026-11-16T18:09:16.114Z",
